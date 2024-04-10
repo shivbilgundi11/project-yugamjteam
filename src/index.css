@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Aeonik Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aeonik'), url('./assets/fonts/aeonikRegular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Aeonik Bold';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Aeonik'), url('./assets/fonts/aeonikbold.ttf') format('ttf');
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: 'Aeonik Regular', sans-serif;
+  overflow-x: hidden;
+  @apply text-black bg-white;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .overlay {
+    background-color: rgb(0 0 0 / 50%);
+  }
+
+  .is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  /* .footer-gradient {
+    background: rgba(15, 23, 42);
+  } */
+  .darkBlueBg {
+    background: #0c1220;
+  }
+
+  .fade-in-out {
+    animation: fadeInOut 4000ms ease infinite alternate; /* Smooth fade animation */
+  }
+
+  .hero-bg {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        122deg,
+        rgba(255, 255, 255, 1) 38%,
+        rgba(255, 255, 255, 0.1292892156862745) 100%
+      ),
+      url(./assets/images/heroImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .testimonial-bg {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        140deg,
+        rgba(255, 255, 255, 0.9920343137254902) 0%,
+        rgba(255, 255, 255, 0) 52%,
+        rgba(255, 255, 255, 1) 99%
+      ),
+      url(./assets/svgs/techstacks/line-pattern.svg);
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  .spin-reverse {
+    animation: spin-rev 1s linear infinite;
+  }
+
+  .it-solutions-bg {
+    background: url(./assets/images/itsolutions.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .digital-marketing-bg {
+    background: url(./assets/images/digitalMarketing.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@keyframes spin-rev {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.btn {
+  outline: none;
+  overflow: hidden;
+  transform: scaleX(1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  animation: animate-scaleX 0.6s cubic-bezier(0.4, 0, 0, 1);
+  background: transparent;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1),
+    border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 0 0;
+  transform: translateY(100%);
+}
+
+.btn:hover::after {
+  transform: translateY(0%);
+  border-radius: 0;
+}
+
+.span {
+  overflow: hidden;
+  position: relative;
+}
+
+.span::after {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  content: attr(data-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 5;
+  transform: translate(-50%, 100%);
+}
+.btn:hover span:after {
+  transform: translate(-50%, 0);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+@keyframes animate-scaleX {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.05);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0.2; /* Start opacity */
+  }
+  to {
+    opacity: 1; /* End opacity */
+  }
+}
+
+/* ----Flip-Card-Styles---- */
+.card {
+  height: 400px;
+  perspective: 1000px;
+}
+
+.card__inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card__inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  /* box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2); */
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
+
+.card__content {
+  width: 100%;
+  height: 100%;
+}
