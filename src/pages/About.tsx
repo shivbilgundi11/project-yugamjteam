@@ -1,11 +1,15 @@
+import AboutHero from '../components/(about-page-components)/HeroSection';
+import TeamMembers from '../components/(about-page-components)/TeamMembers';
+import Vision from '../components/(about-page-components)/VisionMision';
+
 export default function About() {
   return (
     <>
-      <section className='w-full h-full'>
-        <div className='w-full h-[80vh] flex items-center justify-center'>
-          About
-        </div>
-      </section>
+      <main className='w-full h-auto'>
+        <AboutHero />
+        <Vision />
+        <TeamMembers />
+      </main>
     </>
   );
 }
