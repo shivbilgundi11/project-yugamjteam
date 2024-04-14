@@ -1,11 +1,16 @@
-export default function DigitalMarketing() {
+import DigitalServices from "../../components/(digitalmarketing-components)/DigitalServices";
+import Hero from "../../components/(digitalmarketing-components)/Hero";
+import PartnershipBenefits from "../../components/(digitalmarketing-components)/PartnershipBenefits";
+
+
+export default function Home() {
   return (
     <>
-      <section className='w-full h-full'>
-        <div className='w-full h-[80vh] flex items-center justify-center'>
-          DigitalMarketing
-        </div>
-      </section>
+      <main className='w-full h-auto'>
+        <Hero />
+        <PartnershipBenefits />
+        <DigitalServices />
+      </main>
     </>
   );
 }
