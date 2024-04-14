@@ -90,6 +90,25 @@ body,
     background-repeat: repeat;
   }
 
+  .abouthero-bg {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        122deg,
+        rgba(255, 255, 255, 0.6) 38%,
+        rgba(255, 255, 255, 0.1292892156862745) 100%
+      ),
+      url(./assets/images/abouthero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .dotted {
+    background-image: url(./assets/images/download.svg);
+    background-position: center;
+    background-repeat: repeat;
+  }
+
   .spin-reverse {
     animation: spin-rev 1s linear infinite;
   }

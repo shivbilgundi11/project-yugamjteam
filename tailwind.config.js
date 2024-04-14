@@ -9,6 +9,7 @@ export default {
         'black': '#000',
         'white': '#fff',
         'off-white': '#f5f5f5',
+        'shadow-gray': '#F2F2F2',
         'matte-black': '#232325',
         'light-black': '#1b1b1b',
         'lightgray': 'rgb(0,0,0, 0.1)',
