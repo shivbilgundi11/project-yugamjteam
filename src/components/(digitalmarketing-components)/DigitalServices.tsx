@@ -18,13 +18,16 @@ const BoxItem: React.FC<BoxItemProps> = ({ image, heading, description }) => {
         cardInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
       }`}
     >
-      <div className="flex flex-col items-center justify-center ">
-        <div className="flex justify-center mb-4">
-          <img src={image} alt={heading} className='w-auto h-auto'/>
+      {/* <div className="flex flex-col items-center justify-center "> */}
+        <div className="flex justify-start mb-2 ml-3">
+          <img src={image} alt={heading} className='mr-2 w-14 h-14'/>
+          <div className='flex justify-center items-center ml-4 '>
+          <h3 className="text-xl   text-black font-bold text-center mb-2">{heading}</h3> 
+
+          </div>
         </div>
-        <h3 className="text-xl underline-offset-8 text-black text-center mb-2">{heading}</h3> 
-        <p className="text-center  text-lg">{description}</p> 
-      </div>
+        <p className="text-center text-light-black text-lg    rounded-md mt-4">{description}</p> 
+      {/* </div> */}
     </motion.div>
  );
 };
