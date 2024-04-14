@@ -14,7 +14,7 @@ const BoxItem: React.FC<BoxItemProps> = ({ image, heading, description }) => {
  return (
     <motion.div
       ref={divRef}
-      className={`shadow shadow-indigo-400 rounded-2xl text-xl md:text-2xl lg:text-4xl duration-[1s] transition-all ease-[cubic-bezier(0.25, 1, 0.5, 1)] overflow-hidden ${
+      className={`shadow opacity-0 group-hover:opacity-100  ease-in-out rounded-2xl text-xl md:text-2xl lg:text-4xl duration-[1s] transition-all ease-[cubic-bezier(0.25, 1, 0.5, 1)] overflow-hidden ${
         cardInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
       }`}
     >
@@ -69,12 +69,13 @@ const DigitalServices: React.FC = () => {
  return (
   <>
     <div className='flex items-center justify-center  text-4xl mt-8'>
-      <h3>What We Offer</h3>
+      <h3>Our Digital Marketing Services
+</h3>
     </div>
     <div className='flex items-center justify-center text-2xl text-blue mt-4'>
       <p>Our digital marketing services encompass a wide range of disciplines, including but not limited to</p>
     </div>
-    <section className="flex justify-center py-12 bg-gray-100">
+    <section className="flex justify-center py-12 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl" ref={gridRef}>
         {boxItems.map((item, index) => (
           <BoxItem key={index} {...item} />

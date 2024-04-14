@@ -17,7 +17,7 @@ const PartnershipBenefits: React.FC = () => {
 
                 <h2 className="flex justify-center items-center text-3xl font-xl mb-4">Benefits of Partnering with YugAmjTeam</h2>
                 <div className='w-full h-auto flex items-center gap-2 flex-wrap'>
-                    <p className='p-1 px-2 border border-blue rounded-full text-sm'>
+                    <p className='p-1 px-2 border border-blue rounded-full  text-sm'>
                         Comprehensive Solutions
                     </p>
                     <p className='p-1 px-2 border border-blue rounded-full text-sm'>
