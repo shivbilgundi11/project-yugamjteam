@@ -1,11 +1,12 @@
-export default function ITSolutions() {
+import Hero from "../../components/(it-solutions components)/Hero";
+
+
+export default function Home() {
   return (
     <>
-      <section className='w-full h-full'>
-        <div className='w-full h-[80vh] flex items-center justify-center'>
-          IT Solutions
-        </div>
-      </section>
+      <main className='w-full h-auto'>
+        <Hero />
+      </main>
     </>
   );
 }
