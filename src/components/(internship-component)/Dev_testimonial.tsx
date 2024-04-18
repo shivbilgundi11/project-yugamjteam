@@ -1,7 +1,3 @@
-import { Facebook } from "lucide-react";
-import { Twitter } from "lucide-react";
-import { Linkedin } from "lucide-react";
-
 export default function Dev_testi() {
   return (
     <section className="pt-20 pb-48 flex flex-wrap justify-center">
