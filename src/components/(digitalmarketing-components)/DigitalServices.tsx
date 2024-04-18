@@ -72,8 +72,8 @@ const DigitalServices: React.FC = () => {
  return (
   <>
     <div className='flex items-center justify-center  text-4xl mt-8'>
-      <h3>Our Digital Marketing Services
-</h3>
+      <h4>Our Digital Marketing Services
+</h4>
     </div>
     <div className='flex items-center justify-center text-2xl text-blue mt-4'>
       <p>Our digital marketing services encompass a wide range of disciplines, including but not limited to</p>

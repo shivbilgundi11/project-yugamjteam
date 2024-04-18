@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 // import Button from '../ui/Button';
 // import Greeting from '../ui/Greeting';
+
 import gsap from 'gsap';
 import { CustomEase } from 'gsap/CustomEase';
 
@@ -46,7 +47,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className='w-full h-[70vh] lg:h-[85vh] It-hero-bg'>
+      <section className='w-full h-[70vh] lg:h-[85vh] mark-bg'>
 
         <div className='w-full h-full container mx-auto p-4 flex flex-col items-start justify-center gap-y-3 md:gap-y-5'>
           {/* <div className='text-lg sm:text-xl md:text-2xl bg-off-white px-4 py-2 rounded-full flex items-center justify-center gap-x-4 opacityDelay opacity-0'>

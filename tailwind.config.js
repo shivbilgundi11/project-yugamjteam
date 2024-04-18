@@ -14,6 +14,7 @@ export default {
         'light-black': '#1b1b1b',
         'lightgray': 'rgb(0,0,0, 0.1)',
         'gray': '#8f8f8f',
+        'lightblue': "#00FBF4"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],

@@ -2,8 +2,8 @@ import React from 'react';
 
 const PartnershipBenefits: React.FC = () => {
     return (
-        <><div className='flex justify-center item-center mt-8'>
-            <h2 className="text-3xl font-bold mb-4">Approach</h2>
+        <><div className='flex justify-center items-center text-4xl font-xl mb-4 mt-4'>
+            <h2 className="text-3xl  font-xl mb-4">Approach</h2>
            
         </div>
         <div>
