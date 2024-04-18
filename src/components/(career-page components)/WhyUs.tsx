@@ -111,11 +111,34 @@
 //       </div>
 //     </div>
 //   );
-// };
+// }; 
 
 // export default WhyUs;
 
 // import React from "react";
+
+interface ServiceCard {
+  icon: React.ReactNode;
+  title: string;
+  details: string;
+}
+
+const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {  return (
+    <>
+      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+        <div className="mb-9 rounded-[20px] bg-lightgray p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+          <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+            {icon}
+          </div>
+          <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-blue">
+            {title}
+          </h4>
+          <p className="text-body-color dark:text-dark-6">{details}</p>
+        </div>
+      </div>
+    </>
+  );
+};
 
 const Service = () => {
   return (
@@ -131,7 +154,7 @@ const Service = () => {
                 What We Offer
               </h2>
               <p className="text-base text-body-color dark:text-dark-6">
-                At YugAmjTeam, we believe in building a team of passionate
+                At YugAmjTeam, we all believe in building a team of passionate
                 individuals who are dedicated to making a difference in the
                 world of technology.
               </p>
@@ -314,20 +337,4 @@ const Service = () => {
 
 export default Service;
 
-const ServiceCard = ({ icon, title, details }) => {
-  return (
-    <>
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-        <div className="mb-9 rounded-[20px] bg-lightgray p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
-          <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
-            {icon}
-          </div>
-          <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-blue">
-            {title}
-          </h4>
-          <p className="text-body-color dark:text-dark-6">{details}</p>
-        </div>
-      </div>
-    </>
-  );
-};
+
