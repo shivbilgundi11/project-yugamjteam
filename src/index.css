@@ -64,18 +64,31 @@ body,
   .It-hero-bg {
     background: rgb(255, 255, 255);
     background: linear-gradient(
-        110deg,
+      130deg,
         rgba(255, 255, 255, 1) 28%,
         rgba(255, 255, 255, 0.1292892156862745) 100%
       ),
-      url(./assets/images/It-Hero.png);
+      url(./assets/images/Ithero.jpg);
     background-size: cover;
     background-position: auto;
     background-repeat: no-repeat;
 
   }
+ 
+  .mark-bg{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      130deg,
+        rgba(255, 255, 255, 1) 28%,
+        rgba(255, 255, 255, 0.1292892156862745) 100%
+      ),
+      url(./assets/images/digmark123.jpg);
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
 
-  
+
+  }
 
 
 
