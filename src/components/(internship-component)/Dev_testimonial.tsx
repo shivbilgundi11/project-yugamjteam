@@ -8,7 +8,7 @@ export default function Dev_testi() {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center text-center mb-24">
           <div className="w-full lg:w-6/12 px-4">
-            <h2 className="text-4xl font-bold">Words from our Developer!</h2>
+            <h2 className="text-4xl font-bold">Words from our Mentors!</h2>
             <p className="text-lg leading-relaxed m-4 text-gray-600">
               "Meet the champions of innovation, shaping the future with their
               expertise and dedication. Our heroes, tirelessly crafting
@@ -40,7 +40,7 @@ export default function Dev_testi() {
                   <hr />
                 </div>
 
-                <div className="mt-6 flex justify-center">
+                {/* <div className="mt-6 flex justify-center">
                   <button
                     className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
@@ -58,8 +58,8 @@ export default function Dev_testi() {
                     type="button"
                   >
                     <Linkedin />
-                  </button>
-                </div>
+                  </button> */}
+                {/* </div> */}
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Dev_testi() {
                   <hr />
                 </div>
 
-                <div className="mt-6 flex justify-center">
+                {/* <div className="mt-6 flex justify-center">
                   <button
                     className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
@@ -105,7 +105,7 @@ export default function Dev_testi() {
                   >
                     <Linkedin />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@ export default function Dev_testi() {
                   <hr />
                 </div>
 
-                <div className="mt-6 flex justify-center">
+                {/* <div className="mt-6 flex justify-center">
                   <button
                     className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
@@ -151,7 +151,7 @@ export default function Dev_testi() {
                   >
                     <Linkedin />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function Dev_testi() {
                   <hr />
                 </div>
 
-                <div className="mt-6 flex justify-center">
+                {/* <div className="mt-6 flex justify-center">
                   <button
                     className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
@@ -197,7 +197,7 @@ export default function Dev_testi() {
                   >
                     <Linkedin />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default function Dev_testi() {
                   <hr />
                 </div>
 
-                <div className="mt-6 flex justify-center">
+                {/* <div className="mt-6 flex justify-center">
                   <button
                     className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                     type="button"
@@ -243,7 +243,7 @@ export default function Dev_testi() {
                   >
                     <Linkedin />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

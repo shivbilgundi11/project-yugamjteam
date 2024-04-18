@@ -8,7 +8,6 @@ export default function Internships() {
   return (
     <div className="container mx-auto p-4">
         <HeroInternship />
-        <h2 className="text-4xl flex justify-center "> Why choose us</h2>
         <BenefitsCards />
         <TypesOfInternship />
         <Dev_testi />

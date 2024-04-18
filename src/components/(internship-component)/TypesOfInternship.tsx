@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../ui/Button";
+// import Button from "../ui/Button";
 
 interface TypesInternship {
   icon: string; // URL or path to the icon
@@ -16,6 +16,12 @@ const TypesOfInternship: React.FC = () => {
         "Empowering future innovators through hands-on software development internships",
     },
     {
+      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/web-developer.gif",
+      title: "Web Development",
+      description:
+        "Dive into the world of web development with our expert-led internship program",
+    },
+    {
       icon: "/src/assets/images/InternshipImages/Types-of-internship-images/digi_marketing.gif",
       title: "Digital Marketing",
       description:
@@ -29,12 +35,6 @@ const TypesOfInternship: React.FC = () => {
     },
     {
       icon: "/src/assets/images/InternshipImages/Types-of-internship-images/web-developer.gif",
-      title: "Web Development",
-      description:
-        "Dive into the world of web development with our expert-led internship program",
-    },
-    {
-      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/web-developer.gif",
       title: "Content writing",
       description:
         "Harness the power of words and creativity in our content writing internship.",
@@ -44,6 +44,12 @@ const TypesOfInternship: React.FC = () => {
       title: "Business Development",
       description:
         "Forge strategic partnerships and drive growth with our business development internship opportunity.",
+    },
+    {
+      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/more.png",
+      title: "And many more!",
+      description:
+        "Unlock a plethora of internship opportunities - there's more awaiting your ambition!",
     },
   ];
   return (
@@ -69,22 +75,21 @@ const TypesOfInternship: React.FC = () => {
               </h3>
               <p className="text-black text-center mt-2">{card.description}</p>
             </div>
-            {/* <a
+            <a
               href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="self-center"
             >
-              <Button
+              <button className="bg-blue hover:text-black text-white font-bold py-2 px-4 rounded-full mx-auto">
+                Apply Now
+              </button>
+              {/* <Button
                 className="flex justify-center items-center mx-auto"
                 variant="primary"
                 text={"Apply now"}
-              ></Button>
-            </a> */}
-            <button className="bg-blue hover:text-black text-white font-bold py-2 px-4 rounded-full mx-auto">
-                Apply Now
-              </button>
-            <div></div>
+              ></Button> */}
+            </a>
           </div>
         ))}
       </div>

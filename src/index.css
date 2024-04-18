@@ -50,13 +50,13 @@ body,
 
   .careerhero-bg {
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-        52deg,
-        rgba(255, 255, 255, 1) 10%,
-        rgba(255, 255, 255, 0.1292892156862745) 60%
-      ),
-      url(./assets/images/careerImages/we-are-hiring-digital-collage.jpg);
-    background-size: cover;
+    background: 
+    /* linear-gradient(
+        122deg,
+        rgba(255, 255, 255, 1) 38%,
+        rgba(255, 255, 255, 0.1292892156862745) 100%
+      ), */ url(./assets/images/careerImages/career2.jpg);
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
   }
