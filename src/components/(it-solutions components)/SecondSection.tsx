@@ -75,7 +75,7 @@ const RightCardsSection: React.FC<{ cards: FeatureCardProps[] }> = ({ cards }) =
   );
 };
 
-// next section
+// card next section
 interface ServiceCard {
   icon: React.ReactNode;
   title: string;
