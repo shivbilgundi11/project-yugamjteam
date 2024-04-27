@@ -22,7 +22,7 @@ export default function JobOpenings() {
             {/* Job-1 */}
             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                <img src={Avatar} alt="profileimg" />
+                <img src= "https://cdn-icons-png.flaticon.com/256/11180/11180563.png" alt="profileimg" />
               </div>
               <div className="text-center">
                 <p className="text-lg md:text-xl font-semibold">
@@ -54,7 +54,7 @@ export default function JobOpenings() {
             {/* Member-2 */}
             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                <img src={Avatar} alt="profileimg" />
+                <img src= "https://cdn-icons-png.flaticon.com/128/6554/6554103.png" alt="profileimg" />
               </div>
               <div className="text-center">
                 <p className="text-lg md:text-xl font-semibold">
@@ -86,7 +86,7 @@ export default function JobOpenings() {
             {/* Member-2 */}
             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                <img src={Avatar} alt="profileimg" />
+                <img src="https://cdn-icons-png.flaticon.com/128/4661/4661316.png" alt="profileimg" />
               </div>
               <div className="text-center">
                 <p className="text-lg md:text-xl font-semibold">UI Designer</p>
@@ -116,7 +116,7 @@ export default function JobOpenings() {
             {/* Member-4 */}
             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                <img src={Avatar} alt="profileimg" />
+                <img src="https://cdn-icons-png.flaticon.com/128/3929/3929168.png" alt="profileimg" />
               </div>
               <div className="text-center">
                 <p className="text-lg md:text-xl font-semibold">
@@ -148,7 +148,7 @@ export default function JobOpenings() {
             {/* Member-1 */}
             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                <img src={Avatar} alt="profileimg" />
+                <img src="https://cdn-icons-png.flaticon.com/128/2770/2770337.png" alt="profileimg" />
               </div>
               <div className="text-center">
                 <p className="text-lg md:text-xl font-semibold">
