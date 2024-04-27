@@ -111,7 +111,7 @@
 //       </div>
 //     </div>
 //   );
-// }; 
+// };
 
 // export default WhyUs;
 
@@ -123,7 +123,8 @@ interface ServiceCard {
   details: string;
 }
 
-const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {  return (
+const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {
+  return (
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3">
         <div className="mb-9 rounded-[20px] bg-lightgray p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
@@ -154,9 +155,9 @@ const Service = () => {
                 What We Offer
               </h2>
               <p className="text-base text-body-color dark:text-dark-6">
-                At YugAmjTeam, we all believe in building a team of passionate
-                individuals who are dedicated to making a difference in the
-                world of technology.
+                If you're looking for an opportunity to grow your career, make
+                an impact, and work alongside talented professionals, we invite
+                you to explore our current job openings and join our team.
               </p>
             </div>
           </div>
@@ -168,7 +169,8 @@ const Service = () => {
             details="Join a dynamic and collaborative work environment where innovation is encouraged and ideas are valued."
             icon={
               <img
-                src="src\assets\images\careerImages\innovative-envi.png"
+                src="https://cdn-icons-png.flaticon.com/128/4578/4578485.png"
+                // "src\assets\images\careerImages\innovative-envi.png"
                 alt="Innovative Environment"
               ></img>
             }
@@ -192,7 +194,8 @@ const Service = () => {
             details="Take your career to new heights with opportunities for learning, growth, and professional development."
             icon={
               <img
-                src="src\assets\images\careerImages\careerGrowth.png"
+                src="https://cdn-icons-png.flaticon.com/128/10434/10434014.png"
+                // "src\assets\images\careerImages\careerGrowth.png"
                 alt="Career growth"
               ></img>
             }
@@ -218,7 +221,8 @@ const Service = () => {
             details="Be part of projects that have a meaningful impact on our clients, communities, and society as a whole."
             icon={
               <img
-                src="src\assets\images\careerImages\ImpactfulWork.png"
+                src="https://cdn-icons-png.flaticon.com/128/1584/1584911.png"
+                // "src\assets\images\careerImages\ImpactfulWork.png"
                 alt="Impact work"
               ></img>
             }
@@ -254,7 +258,8 @@ const Service = () => {
             details=" Join a diverse and inclusive team that values different perspectives, experiences, and backgrounds."
             icon={
               <img
-                src="src\assets\images\careerImages\diversity.png"
+                src="https://cdn-icons-png.flaticon.com/128/3003/3003951.png"
+                // "src\assets\images\careerImages\diversity.png"
                 alt="Diversity"
               ></img>
             }
@@ -282,7 +287,8 @@ const Service = () => {
             details="Enjoy competitive compensation, comprehensive benefits, and perks designed to support your overall well-being and work-life balance."
             icon={
               <img
-                src="src\assets\images\careerImages\employeeBenifits.png"
+                src="https://cdn-icons-png.flaticon.com/128/3194/3194298.png"
+                // "src\assets\images\careerImages\employeeBenifits.png"
                 alt="Emp Benifits"
               ></img>
             }
@@ -306,7 +312,8 @@ const Service = () => {
             details="We offer flexible work modes to accommodate your needs and preferences."
             icon={
               <img
-                src="src\assets\images\careerImages\workmode.png"
+                src="https://cdn-icons-png.flaticon.com/128/9463/9463507.png"
+                // "src\assets\images\careerImages\workmode.png"
                 alt="Workmode"
               ></img>
             }
@@ -336,5 +343,3 @@ const Service = () => {
 };
 
 export default Service;
-
-

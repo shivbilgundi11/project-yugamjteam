@@ -10,37 +10,43 @@ interface TypesInternship {
 const TypesOfInternship: React.FC = () => {
   const cards: TypesInternship[] = [
     {
-      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/software_dev.gif",
+      icon: "https://cdn-icons-gif.flaticon.com/11260/11260808.gif",
+      // "/src/assets/images/InternshipImages/Types-of-internship-images/software_dev.gif",
       title: "Software Development",
       description:
         "Empowering future innovators through hands-on software development internships",
     },
     {
-      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/web-developer.gif",
+      icon: "https://cdn-icons-gif.flaticon.com/15591/15591404.gif",
+      // "/src/assets/images/InternshipImages/Types-of-internship-images/web-developer.gif",
       title: "Web Development",
       description:
         "Dive into the world of web development with our expert-led internship program",
     },
     {
-      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/digi_marketing.gif",
+      icon: "https://cdn-icons-gif.flaticon.com/14255/14255803.gif",
+      // "/src/assets/images/InternshipImages/Types-of-internship-images/digi_marketing.gif",
       title: "Digital Marketing",
       description:
         "Explore the dynamic realm of digital marketing through our comprehensive internship program.",
     },
     {
-      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/hr_manager.gif",
+      icon: "https://cdn-icons-gif.flaticon.com/15332/15332420.gif",
+      // "/src/assets/images/InternshipImages/Types-of-internship-images/hr_manager.gif",
       title: "HR Management",
       description:
         "Unlock the potential of HR management with our hands-on internship experience.",
     },
     {
-      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/web-developer.gif",
+      icon: "https://cdn-icons-gif.flaticon.com/14447/14447732.gif",
+      // "/src/assets/images/InternshipImages/Types-of-internship-images/web-developer.gif",
       title: "Content writing",
       description:
         "Harness the power of words and creativity in our content writing internship.",
     },
     {
-      icon: "/src/assets/images/InternshipImages/Types-of-internship-images/business-development.gif",
+      icon: "https://cdn-icons-gif.flaticon.com/15401/15401490.gif", 
+      // "/src/assets/images/InternshipImages/Types-of-internship-images/business-development.gif",
       title: "Business Development",
       description:
         "Forge strategic partnerships and drive growth with our business development internship opportunity.",
@@ -81,7 +87,7 @@ const TypesOfInternship: React.FC = () => {
               rel="noopener noreferrer"
               className="self-center"
             >
-              <button className="bg-blue hover:text-black text-white font-bold py-2 px-4 rounded-full mx-auto">
+              <button className="bg-blue mb-4 hover:text-black text-white font-bold py-2 px-4 rounded-full mx-auto">
                 Apply Now
               </button>
               {/* <Button
