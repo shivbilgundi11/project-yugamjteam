@@ -57,14 +57,14 @@ export default function WhatWeProvide() {
 
           <div
             ref={servicesRef}
-            className={`w-full xl:w-[70%] mx-auto h-full grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-24 transition-all duration-500 ease-in-out ${
+            className={`w-full xl:w-[60%] mx-auto h-full grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-24 transition-all duration-500 ease-in-out ${
               serviceCardsInView
                 ? 'translate-y-0 opacity-100'
                 : 'translate-y-20 opacity-0'
             }`}
           >
             {/* ----------Service Card 1---------- */}
-            <div className='card w-full h-full md:h-[550px]'>
+            <div className='card w-full h-full md:h-[400px]'>
               <div className='card__inner hover:is-flipped hover:shadow-xl'>
                 <div className='card__face card__face--front it-solutions-bg rounded-xl p-4 md:p-8 lg:p-12'>
                   <h2 className='text-xl md:text-2xl lg:text-3xl font-semibold mb-4'>
@@ -109,9 +109,7 @@ export default function WhatWeProvide() {
                   <p className='text-sm lg:text-lg mt-10'>
                     Unlocking Solutions, Powering Progress: Explore our
                     comprehensive IT services to overcome challenges and drive
-                    growth. Tagline: Streamlined operations, enhanced
-                    efficiency, and scalable solutions tailored to meet unique
-                    business needs.
+                    growth.
                   </p>
 
                   <Button
@@ -124,7 +122,7 @@ export default function WhatWeProvide() {
             </div>
 
             {/* ----------Service Card 2---------- */}
-            <div className='card w-full h-full md:h-[550px]'>
+            <div className='card w-full h-full md:h-[400px]'>
               <div className='card__inner hover:is-flipped hover:shadow-xl'>
                 <div className='card__face card__face--front digital-marketing-bg rounded-xl p-4 md:p-8 lg:p-12'>
                   <h2 className='text-xl md:text-2xl lg:text-3xl font-semibold mb-4'>
@@ -169,10 +167,7 @@ export default function WhatWeProvide() {
                   <p className='text-sm lg:text-lg mt-10'>
                     Expand Your Reach, Amplify Your Impact: Partner with us for
                     digital marketing services to connect with your target
-                    audience and boost brand visibility. Tagline: Increased
-                    brand awareness, higher website traffic, and improved
-                    engagement leading to enhanced conversion rates and business
-                    growth.
+                    audience and boost brand visibility.
                   </p>
 
                   <Button
@@ -185,7 +180,7 @@ export default function WhatWeProvide() {
             </div>
 
             {/* ----------Service Card 3---------- */}
-            <div className='card w-full h-full md:h-[550px]'>
+            <div className='card w-full h-full md:h-[400px]'>
               <div className='card__inner hover:is-flipped hover:shadow-xl'>
                 <div className='card__face card__face--front it-solutions-bg rounded-xl p-3 md:p-8 lg:p-10'>
                   <h2 className='text-xl md:text-2xl lg:text-3xl font-semibold mb-4'>
@@ -236,9 +231,7 @@ export default function WhatWeProvide() {
                   <p className='text-sm lg:text-lg mt-6'>
                     Simplify HR, Elevate Performance: Let us handle your HR
                     management needs to streamline processes and optimize
-                    workforce efficiency. Tagline: Reduced administrative
-                    burden, improved talent acquisition and retention, enhanced
-                    employee satisfaction, and overall cost savings
+                    workforce efficiency.
                   </p>
 
                   <Button
@@ -251,7 +244,7 @@ export default function WhatWeProvide() {
             </div>
 
             {/* ----------Service Card 4---------- */}
-            <div className='card w-full h-max md:h-[550px]'>
+            <div className='card w-full h-max md:h-[400px]'>
               <div className='card__inner hover:is-flipped hover:shadow-xl'>
                 <div className='card__face card__face--front it-solutions-bg rounded-xl p-4 md:p-8 lg:p-12'>
                   <h2 className='text-xl md:text-2xl lg:text-3xl font-semibold mb-4'>
@@ -299,9 +292,7 @@ export default function WhatWeProvide() {
                   <p className='text-sm lg:text-lg mt-10'>
                     Unlocking Solutions, Powering Progress: Explore our
                     comprehensive IT services to overcome challenges and drive
-                    growth. Tagline: Streamlined operations, enhanced
-                    efficiency, and scalable solutions tailored to meet unique
-                    business needs.
+                    growth.
                   </p>
 
                   <Button

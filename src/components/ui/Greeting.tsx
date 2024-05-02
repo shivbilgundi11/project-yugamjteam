@@ -6,8 +6,8 @@ const Greeting = () => {
     { greeting: 'नमस्ते' },
     { greeting: 'வணக்கம்' },
     { greeting: 'నమస్తే' },
-    { greeting: 'Hi' },
-    { greeting: 'Ola' },
+    { greeting: 'Hello' },
+    { greeting: 'Hola' },
     // Add more greetings as needed
   ]);
 

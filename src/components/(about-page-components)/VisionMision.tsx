@@ -1,3 +1,7 @@
+import { GiTrophyCup } from 'react-icons/gi';
+import { HiLightningBolt, HiOutlineSparkles } from 'react-icons/hi';
+import { TbTargetArrow } from 'react-icons/tb';
+
 export default function Vision() {
   return (
     <>
@@ -6,9 +10,9 @@ export default function Vision() {
           <div className='w-full h-auto lg:w-[70%] lg:mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-7'>
             {/* Vision */}
             <div className='w-full h-full p-4 md:p-4 lg:p-5 border border-lightgray rounded-2xl transition-all duration-300 ease-in-out hover:shadow-xl'>
-              <p className='w-max text-lg relative font-bold md:text-2xl before:content-[""] before:w-[100%] before:h-2 before:bg-red-600 before:rounded-full before:absolute before:left-0 before:bottom-0'>
-                01.
-              </p>
+              <div className='w-max p-2 md:p-4 bg-orange-100 text-orange-600 rounded-full text-lg mb-4'>
+                <HiLightningBolt />
+              </div>
 
               <div className='w-full h-full mt-3 md:mt-8'>
                 <h3 className='text-xl md:text-2xl lg:text-3xl font-bold'>
@@ -26,9 +30,9 @@ export default function Vision() {
 
             {/* Mision */}
             <div className='w-full h-full p-4 md:p-4 lg:p-5 border border-lightgray rounded-2xl transition-all duration-300 ease-in-out hover:shadow-xl'>
-              <p className='w-max text-lg relative font-bold md:text-2xl before:content-[""] before:w-[100%] before:h-2 before:bg-red-600 before:rounded-full before:absolute before:left-0 before:bottom-0'>
-                02.
-              </p>
+              <div className='w-max p-2 md:p-4 bg-orange-100 text-orange-600 rounded-full text-lg mb-4'>
+                <TbTargetArrow />
+              </div>
 
               <div className='w-full h-full mt-3 md:mt-8'>
                 <h3 className='text-xl md:text-2xl lg:text-3xl font-bold'>
@@ -46,9 +50,9 @@ export default function Vision() {
 
             {/* Our Values */}
             <div className='w-full h-full p-4 md:p-4 lg:p-5 border border-lightgray rounded-2xl transition-all duration-300 ease-in-out hover:shadow-xl'>
-              <p className='w-max text-lg relative font-bold md:text-2xl before:content-[""] before:w-[100%] before:h-2 before:bg-red-600 before:rounded-full before:absolute before:left-0 before:bottom-0'>
-                03.
-              </p>
+              <div className='w-max p-2 md:p-4 bg-orange-100 text-orange-600 rounded-full text-lg mb-4'>
+                <GiTrophyCup />
+              </div>
 
               <div className='w-full h-full mt-3 md:mt-8'>
                 <h3 className='text-xl md:text-2xl lg:text-3xl font-bold'>
@@ -68,9 +72,9 @@ export default function Vision() {
 
             {/* Culture */}
             <div className='w-full h-full p-4 md:p-4 lg:p-5 border border-lightgray rounded-2xl transition-all duration-300 ease-in-out hover:shadow-xl'>
-              <p className='w-max text-lg relative font-bold md:text-2xl before:content-[""] before:w-[100%] before:h-2 before:bg-red-600 before:rounded-full before:absolute before:left-0 before:bottom-0'>
-                04.
-              </p>
+              <div className='w-max p-2 md:p-4 bg-orange-100 text-orange-600 rounded-full text-lg mb-4'>
+                <HiOutlineSparkles />
+              </div>
 
               <div className='w-full h-full mt-3 md:mt-8'>
                 <h3 className='text-xl md:text-2xl lg:text-3xl font-bold'>

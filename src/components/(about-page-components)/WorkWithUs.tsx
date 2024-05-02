@@ -3,13 +3,12 @@ import { Link } from 'react-router-dom';
 export default function WorkWithUs() {
   return (
     <>
-      <section className='w-full h-auto bg-white'>
+      <section className='w-full h-auto bg-white border-t border-lightgray'>
         <div className='w-full h-full container mx-auto p-4 py-8 md:py-10 lg:py-16 flex items-center justify-center'>
           <div className='w-full h-full flex items-center justify-center flex-col gap-4 md:gap-6'>
             <p className='text-lg md:text-xl lg:text-3xl lg:w-[50%] lg:mx-auto text-center'>
-              Join our team and together let's transform ideas into reality,
-              innovate fearlessly, and shape the future of technology. Check for
-              opennings on career page.
+              If you think you can contribute your skills, checkout our career
+              page we are always looking for talented people.
             </p>
 
             <Link to={'/career'}>

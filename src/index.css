@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
-  font-family: "Aeonik Regular";
+  font-family: 'Aeonik Regular';
   font-style: normal;
   font-weight: 400;
-  src: local("Aeonik"), url("./assets/fonts/aeonikRegular.ttf") format("ttf");
+  src: local('Aeonik'), url('./assets/fonts/aeonikRegular.ttf') format('ttf');
 }
 
 @font-face {
-  font-family: "Aeonik Bold";
+  font-family: 'Aeonik Bold';
   font-style: normal;
   font-weight: 900;
-  src: local("Aeonik"), url("./assets/fonts/aeonikbold.ttf") format("ttf");
+  src: local('Aeonik'), url('./assets/fonts/aeonikbold.ttf') format('ttf');
 }
 
 html,
@@ -19,7 +19,7 @@ body,
 #root {
   width: 100%;
   height: 100%;
-  font-family: "Aeonik Regular", sans-serif;
+  font-family: 'Aeonik Regular', sans-serif;
   overflow-x: hidden;
   @apply text-black bg-white;
 }
@@ -77,7 +77,7 @@ body,
   .It-hero-bg {
     background: rgb(255, 255, 255);
     background: linear-gradient(
-      130deg,
+        130deg,
         rgba(255, 255, 255, 1) 28%,
         rgba(255, 255, 255, 0.1292892156862745) 100%
       ),
@@ -85,13 +85,12 @@ body,
     background-size: cover;
     background-position: auto;
     background-repeat: no-repeat;
-
   }
- 
-  .mark-bg{
+
+  .mark-bg {
     background: rgb(255, 255, 255);
     background: linear-gradient(
-      130deg,
+        130deg,
         rgba(255, 255, 255, 1) 28%,
         rgba(255, 255, 255, 0.1292892156862745) 100%
       ),
@@ -99,11 +98,16 @@ body,
     background-size: cover;
     background-position: auto;
     background-repeat: no-repeat;
-
-
   }
 
-
+  .fade-bg {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0) 65%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
 
   .testimonial-bg {
     background: rgb(255, 255, 255);
@@ -178,7 +182,7 @@ body,
 }
 
 .btn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -310,6 +314,3 @@ body,
 .animate-slide-in:nth-child(odd) {
   animation: slideInLeft 1.5s ease-out;
 } */
-
-
-

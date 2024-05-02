@@ -1,7 +1,5 @@
 import { useRef } from 'react';
-import TeamImg from '../../assets/images/team.jpg';
 import { useInView } from 'framer-motion';
-import Avatar from '../../assets/images/client.jpg';
 
 export default function AboutHero() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -13,8 +11,6 @@ export default function AboutHero() {
   const howItRef = useRef<HTMLDivElement>(null);
   const howItStartedInView = useInView(howItRef, { once: false });
 
-  const ownerRef = useRef<HTMLDivElement>(null);
-  const ownerInView = useInView(ownerRef, { once: false });
   return (
     <>
       <section className='w-full h-full mb-6 md:mb-12'>
@@ -54,7 +50,7 @@ export default function AboutHero() {
           </p>
         </div>
 
-        {/* CEO and Founder */}
+        {/* CEO and Founder
         <div
           className={`w-full h-auto p-4 py-8 md:py-12 lg:py-16 flex items-center justify-center transition-all duration-300 ease-linear ${
             ownerInView ? 'translate-y-0' : 'translate-y-8'
@@ -88,31 +84,31 @@ export default function AboutHero() {
               <p className='text-sm font-medium'>Co-Founder and Strategist</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* How It Started */}
         <div className='w-full h-auto dotted p-4 mt-8 md:mt-12 py-8 md:py-12 lg:py-16'>
           <div
             ref={howItRef}
-            className='w-full h-auto container mx-auto overflow-x-hidden grid grid-cols-1 md:grid-cols-2 gap-5'
+            className='w-full h-auto container mx-auto overflow-x-hidden'
           >
-            <div
+            {/* <div
               className={`w-full rounded-3xl lg:w-[60%] h-full flex items-center justify-center overflow-hidden place-self-center transition-all duration-500 ease-in ${
                 howItStartedInView ? 'translate-x-0' : '-translate-x-20'
               }`}
             >
               <img src={TeamImg} alt='teamimg' />
-            </div>
+            </div> */}
 
             <div
               className={`w-full h-full flex flex-col justify-start gap-y-5 md:gap-y-7 transition-all duration-500 ease-linear ${
                 howItStartedInView ? '-translate-x-0' : 'translate-x-20'
               }`}
             >
-              <h4 className='text-2xl md:text-4xl font-bold my-auto text-center md:text-start'>
+              <h4 className='text-2xl md:text-4xl font-bold my-auto mx-auto text-center md:text-start'>
                 How we started
               </h4>
-              <p className='text-sm md:text-lg'>
+              <p className='text-sm md:text-lg lg:w-[60%] lg:mx-auto text-center'>
                 At YugAmjTeam, our journey began with a simple yet powerful
                 vision: to bridge the gap between technology and accessibility
                 while empowering individuals to pursue their dreams. Motivated
@@ -120,14 +116,6 @@ export default function AboutHero() {
                 of countless freshers navigating the complex world of
                 technology, we embarked on a mission to create a place where
                 possibilities abound and aspirations thrive.
-              </p>
-              <p className='text-sm md:text-lg'>
-                Our journey began with a realization – the realization that
-                technology, with its boundless potential, could be the key to
-                unlocking solutions and overcoming barriers. Fuelled by this
-                insight, we set out to harness our expertise in technology to
-                address real-world challenges and make a meaningful impact in
-                the lives of others.
               </p>
 
               <p></p>

@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
-import Button from '../ui/Button';
 import Greeting from '../ui/Greeting';
 import gsap from 'gsap';
 import { CustomEase } from 'gsap/CustomEase';
+import Button from '../ui/Button';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(CustomEase);
 CustomEase.create('cubic-text', '0.25, 1, 0.5, 1');
@@ -55,34 +56,37 @@ export default function Hero() {
             <h1 className='h_title w-full h-auto mb-2'>
               <span className='flex gap-x-2 md:gap-x-3 overflow-hidden'>
                 <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
-                  We
+                  Tech
                 </span>
                 <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
-                  Create
+                  Solutions
                 </span>
                 <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
-                  Digital
+                  Tailored
                 </span>
               </span>
             </h1>
             <h1 className='h_title w-full h-auto mb-2'>
               <span className='flex gap-x-12 overflow-hidden'>
                 <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
-                  Solutions
+                  to Your Success
                 </span>
               </span>
             </h1>
           </div>
-          <p className='font-medium text-gray text-lg opacityDelay opacity-0'>
-            Unleashing <span className='font-semibold text-black'>Growth</span>,
-            <span className='font-semibold text-black'>Efficiency</span>, and{' '}
-            <span className='font-semibold text-black'>Success</span>
+          <p className='font-medium text-lg opacityDelay opacity-0'>
+            Unleashing Growth, Efficiency, and Success
           </p>
-          <Button
-            text='Contact Us'
-            className='border-blue after:bg-blue text-blue opacityDelay opacity-0'
-            spanStyles='data-[text]:text-blue'
-          />
+          <div>
+            <Link to={'/contact'}>
+              <Button
+                text='Contact Us'
+                variant='primary'
+                className='border-blue after:bg-blue'
+                spanStyles='data-[text]:text-blue'
+              />
+            </Link>
+          </div>
         </div>
       </section>
     </>
