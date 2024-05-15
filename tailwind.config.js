@@ -20,8 +20,8 @@ export default {
         'lightblue': '#9aded1',
       },
       fontFamily: {
-        'poppins': ['Inter', 'sans-serif'],
-        'fira-sans': ['Lora', 'sans-serif'],
+        poppins: ['Inter', 'sans-serif'],
+        lora: ['Lora', 'sans-serif'],
         // 'poppins': ['Poppins', 'sans-serif'],
         // 'fira-sans': ['Fira Sans', 'sans-serif'],
       },

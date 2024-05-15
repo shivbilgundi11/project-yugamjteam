@@ -8,9 +8,11 @@ export default function HowWeWork() {
     <>
       <section className='w-full h-auto border border-lightgray'>
         <div className='w-full h-full container mx-auto p-4 py-12 md:py-14 lg:py-20'>
-          <p className='md:text-md font-medium text-gray'>How we work</p>
+          <p className='md:text-md font-medium text-gray uppercase'>
+            How we work
+          </p>
 
-          <p className='mt-4 md:mt-10 text-2xl md:text-4xl lg:w-[40%]'>
+          <p className='mt-4 md:mt-10 text-2xl md:text-4xl font-semibold lg:w-[40%] font-lora'>
             We follow a Simple, seamless, and streamlined workflow
           </p>
 

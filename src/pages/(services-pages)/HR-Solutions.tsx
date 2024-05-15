@@ -19,7 +19,7 @@ export default function HRSolutions() {
                 Elevate Your Business
               </p>
             </div>
-            <h1 className='text-2xl md:text-4xl lg:text-5xl font-semibold md:w-[70%] font-fira-sans'>
+            <h1 className='text-2xl md:text-4xl lg:text-5xl font-semibold md:w-[70%] font-lora'>
               Transforming HR challenges into seamless solutions, one talent at
               a time.
             </h1>
@@ -42,11 +42,11 @@ export default function HRSolutions() {
         {/* ----Our Services---- */}
         <section className='w-full h-auto border-t border-lightgray'>
           <div className='w-full h-full container mx-auto py-9 md:py-12 lg:py-24'>
-            <p className='text-xl font-medium lg:w-[80%] lg:mx-auto text-gray'>
+            <p className='text-xl font-medium lg:w-[80%] lg:mx-auto text-gray uppercase'>
               Our Services
             </p>
 
-            <p className='text-2xl md:text-3xl mt-4 font-semibold lg:w-[80%] lg:mx-auto italic text-slate-700 font-fira-sans'>
+            <p className='text-2xl md:text-3xl mt-4 font-semibold lg:w-[80%] lg:mx-auto italic text-slate-700 font-lora'>
               We make customer delight happen
             </p>
 

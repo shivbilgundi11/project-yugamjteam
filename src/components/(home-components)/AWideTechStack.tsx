@@ -6,7 +6,7 @@ export default function TechStack() {
     <>
       <section className='w-full h-auto bg-white py-10 md:py-14 lg:py-24 border border-lightgray'>
         <div className='w-full h-full container mx-auto'>
-          <h3 className='w-full text-3xl md:text-3xl lg:text-5xl text-center mt-4 md:mt-6 font-semibold font-dm-sans'>
+          <h3 className='w-full text-3xl md:text-3xl lg:text-5xl text-center mt-4 md:mt-6 font-semibold font-lora'>
             Choose between a wide{' '}
             <span className='text-secondary'> range of technologies</span>.
           </h3>

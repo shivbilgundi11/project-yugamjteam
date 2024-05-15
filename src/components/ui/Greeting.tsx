@@ -31,11 +31,11 @@ const Greeting = () => {
   return (
     <div className='w-max'>
       <p
-        className={`text-lg sm:text-xl md:text-2xl font-semibold ${
+        className={`text-sm sm:text-xl md:text-2xl font-semibold ${
           showAnimation ? 'fade-in-out' : ''
         }`}
       >
-        {greetings[currentGreetingIndex].greeting}
+        {greetings[currentGreetingIndex].greeting},
       </p>
     </div>
   );

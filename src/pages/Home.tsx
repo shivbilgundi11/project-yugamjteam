@@ -4,14 +4,14 @@ import Hero from '../components/(home-components)/Hero';
 import HowWeWork from '../components/(home-components)/HowWeWork';
 import Testimonials from '../components/(home-components)/Testimonials';
 import WhatWeProvide from '../components/(home-components)/WhatWeProvide';
-import NewHeroSection from '../components/(home-components)/NewHeroSection';
+// import NewHeroSection from '../components/(home-components)/NewHeroSection';
 
 export default function Home() {
   return (
     <>
       <main className='w-full h-auto'>
         <Hero />
-        <NewHeroSection />
+        {/* <NewHeroSection /> */}
         <AboutUs />
         <WhatWeProvide />
         <AWideTechStack />

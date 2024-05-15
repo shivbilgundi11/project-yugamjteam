@@ -4,7 +4,7 @@ import { useInView } from 'framer-motion';
 
 export default function Testimonials() {
   const testimonialsref = useRef<HTMLDivElement>(null);
-  const testimonialInView = useInView(testimonialsref, { once: false });
+  const testimonialInView = useInView(testimonialsref, { once: true });
   return (
     <>
       <section className='w-full h-auto border-y border-lightgray'>
@@ -16,7 +16,7 @@ export default function Testimonials() {
               : 'translate-y-20 opacity-0'
           }`}
         >
-          <p className='text-center text-2xl md:text-4xl lg:text-5xl font-dm-sans font-semibold my-7'>
+          <p className='text-center text-2xl md:text-4xl lg:text-5xl font-lora font-semibold my-7'>
             Let's here what are clients say.
           </p>
           {/* Column-1 */}

@@ -49,32 +49,33 @@ export default function Hero() {
     <>
       <section className='w-full h-[70vh] lg:h-[85vh] hero-bg'>
         <div className='w-full h-full container mx-auto p-4 flex flex-col items-start justify-center gap-y-3 md:gap-y-5'>
-          <div className='text-lg sm:text-xl md:text-2xl bg-off-white px-4 py-2 rounded-full flex items-center justify-center gap-x-4 opacityDelay opacity-0'>
-            <Greeting />, Welcome to YugAmjTeam
+          <div className='text-sm sm:text-xl bg-off-white px-4 py-2 rounded-full flex items-center justify-center flex-wrap gap-x-4 opacityDelay opacity-0'>
+            <Greeting />
+            Welcome to YugAmjTeam
           </div>
           <div>
             <h1 className='h_title w-full h-auto mb-2'>
               <span className='flex gap-x-2 md:gap-x-3 overflow-hidden'>
-                <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
+                <span className='text-3xl md:text-5xl lg:text-7xl font-lora leading-none translate-y-full font-semibold'>
                   Tech
                 </span>
-                <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
+                <span className='text-3xl md:text-5xl lg:text-7xl font-lora leading-none translate-y-full font-semibold'>
                   Solutions
                 </span>
-                <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
+                <span className='text-3xl md:text-5xl lg:text-7xl font-lora leading-none translate-y-full font-semibold'>
                   Tailored
                 </span>
               </span>
             </h1>
             <h1 className='h_title w-full h-auto mb-2'>
               <span className='flex gap-x-12 overflow-hidden'>
-                <span className='text-4xl md:text-5xl lg:text-7xl font-regular leading-none translate-y-full font-semibold'>
+                <span className='text-3xl md:text-5xl lg:text-7xl font-lora leading-none translate-y-full font-semibold'>
                   to Your Success
                 </span>
               </span>
             </h1>
           </div>
-          <p className='font-medium text-lg opacityDelay opacity-0'>
+          <p className='font-medium text-base md:text-lg opacityDelay opacity-0'>
             Unleashing Growth, Efficiency, and Success
           </p>
           <div>
