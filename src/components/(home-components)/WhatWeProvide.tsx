@@ -58,16 +58,16 @@ export default function WhatWeProvide() {
                   </h2>
 
                   <div className='w-full h-auto flex items-center gap-2 flex-wrap'>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       App Developement
                     </p>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       Frontend Developement
                     </p>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       Backend Developement
                     </p>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       Others
                     </p>
                   </div>
@@ -123,16 +123,16 @@ export default function WhatWeProvide() {
                   </h2>
 
                   <div className='w-full h-auto flex items-center gap-2 flex-wrap'>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       SEO
                     </p>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       Email MArketing
                     </p>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       Content Writing
                     </p>
-                    <p className='p-1 px-1 border border-lightgray rounded-full text-xs md:text-sm'>
+                    <p className='p-1 px-2 border border-lightgray rounded-full text-sm'>
                       Others
                     </p>
                   </div>
