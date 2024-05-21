@@ -6,7 +6,7 @@ const EmailMarketing = () => {
   return (
     <>
       <main className='w-full h-auto'>
-        <div className='w-full h-full container mx-auto py-8 md:py-14 lg:py-44 overflow-hidden'>
+        <div className='w-full h-full container mx-auto mt-20 md:mt-16 lg:mt-0 py-8 md:py-14 lg:py-28 overflow-hidden'>
           <section className='w-full h-full relative lg:w-[80%] lg:mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-16'>
             <div className='group w-full h-full lg:col-span-3 flex flex-col gap-y-3 md:gap-y-6 border-b mb-9 border-lightgray lg:border-none lg:mb-0'>
               <div className='w-full h-auto aspect-video rounded-2xl overflow-hidden'>
