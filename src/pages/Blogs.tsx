@@ -20,7 +20,7 @@ export default function Blogs() {
                   <img
                     src={BlogBanner}
                     alt='BlogBanner'
-                    className='group-hover:scale-105 transition-all duration-300 ease-in-out'
+                    className='w-full block object-cover object-center group-hover:scale-105 transition-all duration-300 ease-in-out'
                   />
                 </div>
                 <h3 className='px-3 py-1 bg-orange-100 text-sm text-orange-700 rounded-lg w-max'>
