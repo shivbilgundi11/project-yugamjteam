@@ -19,6 +19,9 @@ const Internships = lazy(() => import('./pages/(services-pages)/Internships'));
 const DigitalMarketing = lazy(
   () => import('./pages/(services-pages)/DigitalMarketing'),
 );
+const EmailMarketing = lazy(
+  () => import('./pages/(blogs-pages)/EmailMarketing'),
+);
 
 const routes = createBrowserRouter([
   {
@@ -65,6 +68,10 @@ const routes = createBrowserRouter([
       {
         path: '/services/digital-marketing',
         element: <DigitalMarketing />,
+      },
+      {
+        path: '/blogs/understanding-email-marketing-and-its-importance-for-businesses',
+        element: <EmailMarketing />,
       },
     ],
   },
