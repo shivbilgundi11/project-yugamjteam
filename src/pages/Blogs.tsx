@@ -6,9 +6,9 @@ export default function Blogs() {
   return (
     <>
       <main className='w-full h-auto'>
-        <div className='w-full h-full container mx-auto py-8 md:py-14 lg:py-52'>
+        <div className='w-full h-full container mx-auto mt-20 md:mt-0 py-8 md:py-14 lg:py-28'>
           {/* ----Blogs-Container---- */}
-          <div className='w-full h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-5'>
+          <div className='w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5'>
             {/* Blog-1 */}
             <Link
               to={
