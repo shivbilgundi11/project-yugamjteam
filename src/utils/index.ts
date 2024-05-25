@@ -27,6 +27,7 @@ import Laravel from '../assets/images/techstack/laravel.svg';
 import emailMarketingBanner from '../assets/images/emailMarketingBanner.jpg';
 import Technologies from '../assets/images/technologies.jpg';
 import InternshipsBlog from '../assets/images/internshipsBlog.jpg';
+import HRSolBlog from '../assets/images/hrblog.jpg';
 
 export const TechList1 = [
   {
@@ -151,7 +152,7 @@ export const blogCards = [
       'Technologies and IT Solutions: Empowering Businesses in the Digital Age',
     readTime: '12min',
     tag: 'Technologies',
-    postedDate: 'November 12, 2023',
+    postedDate: 'Nov 12, 2023',
     banner: Technologies,
     route:
       '/blogs/technologies-and-it-solutions:-empowering-businesses-in-the-digital-age',
@@ -164,7 +165,7 @@ export const blogCards = [
       'Unlocking Career Opportunities: The Power of Internships and Placement Success',
     readTime: '15min',
     tag: 'Internships',
-    postedDate: 'January 3, 2024',
+    postedDate: 'Jan 3, 2024',
     banner: InternshipsBlog,
     route:
       '/blogs/unlocking-career-opportunities:-the-power-of-internships-and-placement-success',
@@ -173,10 +174,22 @@ export const blogCards = [
   },
   {
     id: 2,
+    title:
+      'Unlocking Business Potential: The Power of HR Solutions by YugAmjTeam',
+    readTime: '10min',
+    tag: 'HR Solutions',
+    postedDate: 'Feb 6, 2024',
+    banner: HRSolBlog,
+    route: '/blogs/business-potential:the-power-of-hr-solutions-by-YugAmjTeam',
+    previewText:
+      "In the fast-paced world of business, one thing remains constant: people are at the heart of every organization's success. At YugAmjTeam, we understand...",
+  },
+  {
+    id: 3,
     title: 'Understanding Email Marketing and Its Importance for Businesses',
     readTime: '7min',
     tag: 'Digital Marketing',
-    postedDate: 'October 18, 2023',
+    postedDate: 'Oct 18, 2023',
     banner: emailMarketingBanner,
     route:
       '/blogs/understanding-email-marketing-and-its-importance-for-businesses',

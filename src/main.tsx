@@ -27,6 +27,7 @@ const TechnologiesBlog = lazy(
 const InternshipsBlog = lazy(
   () => import('./pages/(blogs-pages)/InternshipsBlog'),
 );
+const HRSolBlog = lazy(() => import('./pages/(blogs-pages)/HRSolBlog'));
 
 const routes = createBrowserRouter([
   {
@@ -81,6 +82,10 @@ const routes = createBrowserRouter([
       {
         path: '/blogs/unlocking-career-opportunities:-the-power-of-internships-and-placement-success',
         element: <InternshipsBlog />,
+      },
+      {
+        path: '/blogs/business-potential:the-power-of-hr-solutions-by-YugAmjTeam',
+        element: <HRSolBlog />,
       },
     ],
   },

@@ -6,13 +6,14 @@ import PlacementSuccess2 from '../../assets/images/placementSuccess2.jpeg';
 import PlacementSuccess3 from '../../assets/images/placementSuccess3.jpeg';
 import PlacementSuccess4 from '../../assets/images/placementSuccess4.jpeg';
 import Placement from '../../assets/images/placement.jpg';
+import { Link } from 'react-router-dom';
 
 const InternshipsBlog = () => {
   return (
     <>
       <main className='w-full h-auto'>
         <div className='w-full h-full container mx-auto mt-20 md:mt-16 lg:mt-0 py-8 md:py-14 lg:py-28 overflow-hidden'>
-          <section className='w-full h-full relative lg:w-[80%] lg:mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-16'>
+          <section className='w-full h-full relative lg:w-[100%] lg:mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-5'>
             <div className='group w-full h-full lg:col-span-3 flex flex-col gap-y-3 md:gap-y-6 border-b mb-9 border-lightgray lg:border-none lg:mb-0'>
               <div className='w-full h-auto aspect-video rounded-2xl overflow-hidden'>
                 <img
@@ -297,21 +298,39 @@ const InternshipsBlog = () => {
                 <div className='w-full h-auto flex flex-col'>
                   <div className='w-full group inline-flex items-center gap-x-1 text-base md:text-lg cursor-pointer py-4 border-b border-lightgray'>
                     <IoIosArrowForward className='font-bold' />{' '}
-                    <p className='group-hover:translate-x-2 transition-all duration-300 ease-in-out text-light-black group-hover:text-black'>
-                      Intership Program Awareness
-                    </p>
+                    <Link
+                      to={
+                        '/blogs/technologies-and-it-solutions:-empowering-businesses-in-the-digital-age'
+                      }
+                      className='group-hover:translate-x-2 transition-all duration-300 ease-in-out text-light-black group-hover:text-black'
+                    >
+                      Technologies and IT Solutions: Empowering Businesses in
+                      the Digital Age
+                    </Link>
                   </div>
                   <div className='w-full group inline-flex items-center gap-x-1 text-base md:text-lg cursor-pointer py-4 border-b border-lightgray'>
                     <IoIosArrowForward className='font-bold' />{' '}
-                    <p className='group-hover:translate-x-2 transition-all duration-300 ease-in-out text-light-black group-hover:text-black'>
-                      Hiring success
-                    </p>
+                    <Link
+                      to={
+                        '/blogs/business-potential:the-power-of-hr-solutions-by-YugAmjTeam'
+                      }
+                      className='group-hover:translate-x-2 transition-all duration-300 ease-in-out text-light-black group-hover:text-black'
+                    >
+                      Unlocking Business Potential: The Power of HR Solutions by
+                      YugAmjTeam
+                    </Link>
                   </div>
                   <div className='w-full group inline-flex items-center gap-x-1 text-base md:text-lg cursor-pointer py-4 border-b border-lightgray'>
                     <IoIosArrowForward className='font-bold' />{' '}
-                    <p className='group-hover:translate-x-2 transition-all duration-300 ease-in-out text-light-black group-hover:text-black'>
-                      Technologies Awareness
-                    </p>
+                    <Link
+                      to={
+                        '/blogs/understanding-email-marketing-and-its-importance-for-businesses'
+                      }
+                      className='group-hover:translate-x-2 transition-all duration-300 ease-in-out text-light-black group-hover:text-black'
+                    >
+                      Understanding Email Marketing and Its Importance for
+                      Businesses
+                    </Link>
                   </div>
                 </div>
               </div>
