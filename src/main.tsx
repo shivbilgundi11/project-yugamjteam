@@ -12,7 +12,6 @@ const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Blogs = lazy(() => import('./pages/Blogs'));
 const Career = lazy(() => import('./pages/Career'));
-const Services = lazy(() => import('./pages/Services'));
 const ITSolutions = lazy(() => import('./pages/(services-pages)/IT-SOlutions'));
 const HRSolutions = lazy(() => import('./pages/(services-pages)/HR-Solutions'));
 const Internships = lazy(() => import('./pages/(services-pages)/Internships'));
@@ -21,6 +20,12 @@ const DigitalMarketing = lazy(
 );
 const EmailMarketing = lazy(
   () => import('./pages/(blogs-pages)/EmailMarketing'),
+);
+const TechnologiesBlog = lazy(
+  () => import('./pages/(blogs-pages)/TechnologiesBlog'),
+);
+const InternshipsBlog = lazy(
+  () => import('./pages/(blogs-pages)/InternshipsBlog'),
 );
 
 const routes = createBrowserRouter([
@@ -50,10 +55,6 @@ const routes = createBrowserRouter([
         element: <Career />,
       },
       {
-        path: '/services',
-        element: <Services />,
-      },
-      {
         path: '/services/it-solutions',
         element: <ITSolutions />,
       },
@@ -72,6 +73,14 @@ const routes = createBrowserRouter([
       {
         path: '/blogs/understanding-email-marketing-and-its-importance-for-businesses',
         element: <EmailMarketing />,
+      },
+      {
+        path: '/blogs/technologies-and-it-solutions:-empowering-businesses-in-the-digital-age',
+        element: <TechnologiesBlog />,
+      },
+      {
+        path: '/blogs/unlocking-career-opportunities:-the-power-of-internships-and-placement-success',
+        element: <InternshipsBlog />,
       },
     ],
   },

@@ -1,5 +1,5 @@
 import { GoDotFill } from 'react-icons/go';
-import EmailMarBanner from '../../assets/images/blogbanner.jpg';
+import EmailMarBanner from '../../assets/images/emailMarketingBanner.jpg';
 import { IoIosArrowForward } from 'react-icons/io';
 
 const EmailMarketing = () => {

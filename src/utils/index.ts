@@ -24,6 +24,10 @@ import BootStrap from '../assets/images/techstack/bootstrap.svg';
 import Django from '../assets/images/techstack/django.svg';
 import Laravel from '../assets/images/techstack/laravel.svg';
 
+import emailMarketingBanner from '../assets/images/emailMarketingBanner.jpg';
+import Technologies from '../assets/images/technologies.jpg';
+import InternshipsBlog from '../assets/images/internshipsBlog.jpg';
+
 export const TechList1 = [
   {
     id: 1,
@@ -138,3 +142,45 @@ export const TechList2 = [
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
+
+// Blogs Cards Data
+export const blogCards = [
+  {
+    id: 0,
+    title:
+      'Technologies and IT Solutions: Empowering Businesses in the Digital Age',
+    readTime: '12min',
+    tag: 'Technologies',
+    postedDate: 'November 12, 2023',
+    banner: Technologies,
+    route:
+      '/blogs/technologies-and-it-solutions:-empowering-businesses-in-the-digital-age',
+    previewText:
+      "In today's rapidly evolving business landscape, the integration of cutting-edge technologies and innovative IT solutions has become paramount for staying competitive...",
+  },
+  {
+    id: 1,
+    title:
+      'Unlocking Career Opportunities: The Power of Internships and Placement Success',
+    readTime: '15min',
+    tag: 'Internships',
+    postedDate: 'January 3, 2024',
+    banner: InternshipsBlog,
+    route:
+      '/blogs/unlocking-career-opportunities:-the-power-of-internships-and-placement-success',
+    previewText:
+      "In Today's competitive job market, gaining practical experience and securing placement opportunities are essential steps in launching a successful career. Internships play...",
+  },
+  {
+    id: 2,
+    title: 'Understanding Email Marketing and Its Importance for Businesses',
+    readTime: '7min',
+    tag: 'Digital Marketing',
+    postedDate: 'October 18, 2023',
+    banner: emailMarketingBanner,
+    route:
+      '/blogs/understanding-email-marketing-and-its-importance-for-businesses',
+    previewText:
+      'No doubt, the advancement of technology has changed a lot starting from user experience to the business model. In between all, one thing that still hasn’t changed...',
+  },
+];
