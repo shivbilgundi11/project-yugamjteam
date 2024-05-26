@@ -13,9 +13,10 @@ export default function Footer() {
   const scrollToServices = () => {
     navigate('/');
     setTimeout(() => {
-      document
-        .getElementById('services__section')
-        .scrollIntoView({ behavior: 'smooth' });
+      const servicesSection = document.getElementById('services__section');
+      if (servicesSection) {
+        servicesSection.scrollIntoView({ behavior: 'smooth' });
+      }
     }, 100); // Delay to ensure the page has navigated
   };
   return (
