@@ -18,6 +18,7 @@ import Img14 from '../../assets/images/placementSuccess4.jpeg';
 
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import { FaRegLightbulb } from 'react-icons/fa6';
 
 const InternshipsBlog = () => {
   useEffect(() => {
@@ -218,45 +219,6 @@ const InternshipsBlog = () => {
                   Celebrating Placement Success
                 </h3>
 
-                {/* <div className='w-full lg:w-[90%] mb-6 lg:mx-auto h-auto grid grid-cols-2 grid-rows-2 gap-4'>
-                  <div className='group w-full h-auto aspect-square rounded-xl overflow-hidden border border-lightgray shadow-lg'>
-                    <img
-                      src={PlacementSuccess1}
-                      alt='PlacementSuccess1'
-                      className='w-full block object-center object-cover hover:scale-105 transition-all duration-300 ease-in-out'
-                    />
-                  </div>
-                  <div className='group w-full h-auto aspect-square rounded-xl overflow-hidden border border-lightgray shadow-lg'>
-                    <img
-                      src={PlacementSuccess2}
-                      alt='PlacementSuccess1'
-                      className='w-full block object-center object-cover hover:scale-105 transition-all duration-300 ease-in-out'
-                    />
-                  </div>
-                  <div className='group w-full h-auto aspect-square rounded-xl overflow-hidden border border-lightgray shadow-lg'>
-                    <img
-                      src={PlacementSuccess3}
-                      alt='PlacementSuccess1'
-                      className='w-full block object-center object-cover hover:scale-105 transition-all duration-300 ease-in-out'
-                    />
-                  </div>
-                  <div className='group w-full h-auto aspect-square rounded-xl overflow-hidden border border-lightgray shadow-lg'>
-                    <img
-                      src={PlacementSuccess4}
-                      alt='PlacementSuccess1'
-                      className='w-full block object-center object-cover hover:scale-105 transition-all duration-300 ease-in-out'
-                    />
-                  </div>
-                </div>
-
-                <div className='w-full h-auto aspect-video rounded-2xl overflow-hidden'>
-                  <img
-                    src={Placement}
-                    alt='BlogBanner'
-                    className='hover:scale-105 transition-all duration-300 ease-in-out'
-                  />
-                </div> */}
-
                 <div className='w-full h-auto p-3 md:p-4'></div>
                 <div className='w-full h-full mb-6 columns-1 sm:columns-2 lg:columns-3 gap-3 md:gap-5 lg:gap-6 [&>img:not(:first-child)]:mt-5'>
                   <img
@@ -334,6 +296,17 @@ const InternshipsBlog = () => {
                   and making significant contributions to their respective
                   fields. Here are some stories of placement success from our
                   talented interns:
+                </p>
+
+                <p className='inline-flex items-center gap-x-3 p-4 bg-yellow-100 text-yellow-700 rounded-lg'>
+                  <FaRegLightbulb /> Want to know more about our Internship
+                  program?{' '}
+                  <Link
+                    to={'/services/internships'}
+                    className='text-yellow-800 underline'
+                  >
+                    Click here
+                  </Link>
                 </p>
 
                 <h3 className='font-bold text-lg lg:text-xl'>

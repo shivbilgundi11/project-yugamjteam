@@ -303,7 +303,7 @@ export default function NavBar() {
                 <p className='text-light font-normal text-md'>Get in touch</p>
 
                 <p className='border-b border-lightBorder py-1 hover:border-black'>
-                  abcd@xyz.com
+                  abhi@amjteam.com
                 </p>
               </div>
             </div>

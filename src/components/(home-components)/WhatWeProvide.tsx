@@ -7,7 +7,7 @@ export default function WhatWeProvide() {
   const navigate = useNavigate();
   return (
     <>
-      <section className='w-full h-auto bg-off-white'>
+      <section className='w-full h-auto bg-off-white' id='services__section'>
         <div className='w-full h-auto container mx-auto p-4 py-10 md:py-14 lg:py-44 overflow-x-hidden'>
           <div className='w-full h-full flex items-center gap-x-3'>
             <div className='relative'>
