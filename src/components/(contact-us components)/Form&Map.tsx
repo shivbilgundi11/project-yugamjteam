@@ -1248,8 +1248,8 @@ const ContactUs = () => {
           <p>
             Email: <a href="#">amjofficial@gmail.com</a>
           </p>
-          <p>Follow us on:</p>
-          <div className="flex mt-2">
+          <p>Mob No: 1234567890 </p>
+          {/* <div className="flex mt-2">
             <a href="#" className="mr-4">
               Facebook
             </a>
@@ -1257,7 +1257,7 @@ const ContactUs = () => {
               Instagram
             </a>
             <a href="#">LinkedIn</a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="h-[75vh] md:w-1/2 mt-1 md:mt-0">
