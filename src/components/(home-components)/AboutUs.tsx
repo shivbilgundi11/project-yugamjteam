@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
+import { Link } from 'react-router-dom';
 
 export default function AboutUs() {
   const textRef = useRef<HTMLDivElement>(null);
@@ -13,9 +14,9 @@ export default function AboutUs() {
         <p
           className={`${
             isInView ? 'opacity-100' : 'opacity-0'
-          } text-lg md:text-xl text-gray duration-[0.6s] ease-[cubic-bezier(0.25, 1, 0.5, 1)] transition-all uppercase`}
+          } text-md md:text-lg text-gray duration-[0.6s] ease-[cubic-bezier(0.25, 1, 0.5, 1)] transition-all uppercase`}
         >
-          Who we are
+          WHO WE ARE
         </p>
 
         <div className='flex flex-col items-center justify-center lg:items-start gap-y-7'>
@@ -28,7 +29,7 @@ export default function AboutUs() {
                     isInView ? 'translate-y-0' : 'translate-y-full'
                   }`}
                 >
-                  Your IT Solution partners, Empowering Brands
+                  Your IT Solution partners, Empowering
                 </motion.div>
               </div>
             </h1>
@@ -40,7 +41,7 @@ export default function AboutUs() {
                     isInView ? 'translate-y-0' : 'translate-y-full'
                   }`}
                 >
-                  to Amplify Their Online Presence and
+                  Brands to Amplify Their Online Presence
                 </motion.div>
               </div>
             </h1>
@@ -52,13 +53,15 @@ export default function AboutUs() {
                     isInView ? 'translate-y-0' : 'translate-y-full'
                   }`}
                 >
-                  Double Their Business Growth.
+                  and Double Their Business Growth.
                 </motion.div>
               </div>
             </h1>
           </div>
 
-          <Button text='Learn More' variant='primary' />
+          <Link to={'/about'}>
+            <Button text='Learn More' variant='primary' />
+          </Link>
         </div>
       </div>
     </section>

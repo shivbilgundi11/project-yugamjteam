@@ -93,12 +93,10 @@ export default function NavBar() {
 
           {/* ------Services Links DropDown------ */}
           <div className='relative group'>
-            <NavLink to={'/services'}>
-              <span className='h-full inline-flex items-center gap-x-1'>
-                <p className={isActivePage.inActive}>Services</p>
-                <IoIosArrowDown className='w-4 group-hover:rotate-180 transition-all duration-200 ease-in' />
-              </span>
-            </NavLink>
+            <span className='h-full inline-flex items-center gap-x-1'>
+              <p className={isActivePage.inActive}>Services</p>
+              <IoIosArrowDown className='w-4 group-hover:rotate-180 transition-all duration-200 ease-in' />
+            </span>
             <div className='absolute w-max bg-white text-black shadow-lg p-4 rounded-md border border-lightgray -left-2 top-6 hidden group-hover:flex flex-col justify-center gap-y-3'>
               <NavLink
                 to={'/services/it-solutions'}
@@ -223,16 +221,7 @@ export default function NavBar() {
                   </NavLink>
                   <div className='w-full h-auto overflow-hidden'>
                     <div className='w-full flex justify-between items-center'>
-                      <NavLink
-                        to={'/services'}
-                        className={({ isActive }) =>
-                          isActive
-                            ? navLinksStyles.active
-                            : navLinksStyles.inActive
-                        }
-                      >
-                        Services
-                      </NavLink>
+                      <p className={navLinksStyles.inActive}>Services</p>
 
                       <button
                         className='group p-2 border rounded-full border-black hover:border-gray'
@@ -314,7 +303,7 @@ export default function NavBar() {
                 <p className='text-light font-normal text-md'>Get in touch</p>
 
                 <p className='border-b border-lightBorder py-1 hover:border-black'>
-                  abcd@xyz.com
+                  abhi@amjteam.com
                 </p>
               </div>
             </div>

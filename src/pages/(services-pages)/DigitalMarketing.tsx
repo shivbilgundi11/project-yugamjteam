@@ -1,11 +1,19 @@
-export default function DigitalMarketing() {
+import { useEffect } from 'react';
+import DigitalServices from '../../components/(digitalmarketing-components)/DigitalServices';
+import Hero from '../../components/(digitalmarketing-components)/Hero';
+import PartnershipBenefits from '../../components/(digitalmarketing-components)/PartnershipBenefits';
+
+export default function Home() {
+  useEffect(() => {
+    window.document.title = 'Srvices - Digital Marketing';
+  }, []);
   return (
     <>
-      <section className='w-full h-full'>
-        <div className='w-full h-[80vh] flex items-center justify-center'>
-          DigitalMarketing
-        </div>
-      </section>
+      <main className='w-full h-auto'>
+        <Hero />
+        <PartnershipBenefits />
+        <DigitalServices />
+      </main>
     </>
   );
 }

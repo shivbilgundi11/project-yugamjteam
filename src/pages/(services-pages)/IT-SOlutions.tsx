@@ -1,11 +1,17 @@
-export default function ITSolutions() {
+import { useEffect } from 'react';
+import Hero from '../../components/(it-solutions components)/Hero';
+import SecondSection from '../../components/(it-solutions components)/SecondSection';
+
+export default function Home() {
+  useEffect(() => {
+    window.document.title = 'Services - IT Solutions';
+  }, []);
   return (
     <>
-      <section className='w-full h-full'>
-        <div className='w-full h-[80vh] flex items-center justify-center'>
-          IT Solutions
-        </div>
-      </section>
+      <main className='w-full h-auto'>
+        <Hero />
+        <SecondSection />
+      </main>
     </>
   );
 }

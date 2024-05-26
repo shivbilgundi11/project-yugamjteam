@@ -4,21 +4,24 @@ import { useInView } from 'framer-motion';
 
 export default function Testimonials() {
   const testimonialsref = useRef<HTMLDivElement>(null);
-  const testimonialInView = useInView(testimonialsref, { once: false });
+  const testimonialInView = useInView(testimonialsref, { once: true });
   return (
     <>
-      <section className='w-full h-auto border-y border-lightgray testimonial-bg'>
+      <section className='w-full h-auto border-y border-lightgray'>
         <div
           ref={testimonialsref}
-          className={`w-full h-full container mx-auto p-4 py-20 md:py-28 lg:py-36 transition-all duration-500 ease-in-out ${
+          className={`w-full h-full container mx-auto p-4 py-20 md:py-28 transition-all duration-500 ease-in-out ${
             testimonialInView
               ? 'translate-y-0 opacity-100'
               : 'translate-y-20 opacity-0'
           }`}
         >
+          <p className='text-center text-2xl md:text-4xl lg:text-5xl font-lora font-semibold my-7'>
+            Let's here what are clients say.
+          </p>
           {/* Column-1 */}
-          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3'>
-            <div className='px-3'>
+          <div className='w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='px-1'>
               {/* Testimoial-1 */}
               <div className='w-auto h-auto p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl'>
                 <div className='w- h-auto flex items-center gap-x-4'>
@@ -90,7 +93,7 @@ export default function Testimonials() {
             </div>
 
             {/* Column-2 */}
-            <div className='px-3'>
+            <div className='px-1'>
               {/* Testimoial-1 */}
               <div className='w-auto h-auto p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl'>
                 <div className='w- h-auto flex items-center gap-x-4'>
@@ -160,7 +163,7 @@ export default function Testimonials() {
             </div>
 
             {/* Column-3 */}
-            <div className='px-3'>
+            <div className='px-1'>
               {/* Testimoial-1 */}
               <div className='w-auto h-auto p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl'>
                 <div className='w- h-auto flex items-center gap-x-4'>
