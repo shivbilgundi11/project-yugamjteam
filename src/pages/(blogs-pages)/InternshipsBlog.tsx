@@ -1,14 +1,29 @@
 import { GoDotFill } from 'react-icons/go';
 import InternshipsBanner from '../../assets/images/internshipsBlog.jpg';
 import { IoIosArrowForward } from 'react-icons/io';
-import PlacementSuccess1 from '../../assets/images/placementSuccess1.jpeg';
-import PlacementSuccess2 from '../../assets/images/placementSuccess2.jpeg';
-import PlacementSuccess3 from '../../assets/images/placementSuccess3.jpeg';
-import PlacementSuccess4 from '../../assets/images/placementSuccess4.jpeg';
-import Placement from '../../assets/images/placement.jpg';
+
+import Img1 from '../../assets/images/img1.jpg';
+import Img2 from '../../assets/images/img2.jpg';
+import Img3 from '../../assets/images/img3.jpg';
+import Img4 from '../../assets/images/img4.jpg';
+import Img5 from '../../assets/images/img5.jpg';
+import Img6 from '../../assets/images/img6.jpg';
+import Img7 from '../../assets/images/img7.jpg';
+import Img8 from '../../assets/images/img8.jpg';
+import Img9 from '../../assets/images/img9.jpg';
+import Img11 from '../../assets/images/placementSuccess1.jpeg';
+import Img12 from '../../assets/images/placementSuccess2.jpeg';
+import Img13 from '../../assets/images/placementSuccess3.jpeg';
+import Img14 from '../../assets/images/placementSuccess4.jpeg';
+
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const InternshipsBlog = () => {
+  useEffect(() => {
+    window.document.title =
+      'Unlocking Career Opportunities: The Power of Internships and Placement Success';
+  }, []);
   return (
     <>
       <main className='w-full h-auto'>
@@ -203,7 +218,7 @@ const InternshipsBlog = () => {
                   Celebrating Placement Success
                 </h3>
 
-                <div className='w-full lg:w-[90%] mb-6 lg:mx-auto h-auto grid grid-cols-2 grid-rows-2 gap-4'>
+                {/* <div className='w-full lg:w-[90%] mb-6 lg:mx-auto h-auto grid grid-cols-2 grid-rows-2 gap-4'>
                   <div className='group w-full h-auto aspect-square rounded-xl overflow-hidden border border-lightgray shadow-lg'>
                     <img
                       src={PlacementSuccess1}
@@ -239,6 +254,75 @@ const InternshipsBlog = () => {
                     src={Placement}
                     alt='BlogBanner'
                     className='hover:scale-105 transition-all duration-300 ease-in-out'
+                  />
+                </div> */}
+
+                <div className='w-full h-auto p-3 md:p-4'></div>
+                <div className='w-full h-full mb-6 columns-1 sm:columns-2 lg:columns-3 gap-3 md:gap-5 lg:gap-6 [&>img:not(:first-child)]:mt-5'>
+                  <img
+                    src={Img1}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img2}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img3}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img11}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img4}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img5}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img14}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img7}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img12}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img8}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img9}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img13}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
+                  />
+                  <img
+                    src={Img6}
+                    alt='placementImg'
+                    className='border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in'
                   />
                 </div>
 

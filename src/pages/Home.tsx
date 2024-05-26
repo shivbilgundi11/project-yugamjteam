@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import AWideTechStack from '../components/(home-components)/AWideTechStack';
 import AboutUs from '../components/(home-components)/AboutUs';
 import Hero from '../components/(home-components)/Hero';
@@ -7,6 +8,9 @@ import WhatWeProvide from '../components/(home-components)/WhatWeProvide';
 // import NewHeroSection from '../components/(home-components)/NewHeroSection';
 
 export default function Home() {
+  useEffect(() => {
+    window.document.title = 'YugAmjTeam Technologies Pvt Ltd';
+  }, []);
   return (
     <>
       <main className='w-full h-auto'>

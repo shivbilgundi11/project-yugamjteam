@@ -1,8 +1,12 @@
 import { GoDotFill } from 'react-icons/go';
 import { Link } from 'react-router-dom';
 import { blogCards } from '../utils';
+import { useEffect } from 'react';
 
 export default function Blogs() {
+  useEffect(() => {
+    window.document.title = 'Blogs';
+  }, []);
   return (
     <>
       <main className='w-full h-auto'>

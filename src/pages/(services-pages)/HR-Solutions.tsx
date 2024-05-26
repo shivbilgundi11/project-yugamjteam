@@ -3,8 +3,12 @@ import ContractHire from '../../assets/images/hr-solutions/contract-hire.webp';
 import ITHire from '../../assets/images/hr-solutions/it-hire.webp';
 import VendorHire from '../../assets/images/hr-solutions/vendor-hire.webp';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function HRSolutions() {
+  useEffect(() => {
+    window.document.title = 'Services - HR Solutions';
+  }, []);
   return (
     <>
       <main className='w-full h-auto'>

@@ -2,8 +2,13 @@ import { GoDotFill } from 'react-icons/go';
 import Technologies from '../../assets/images/technologies.jpg';
 import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const TechnologiesBlog = () => {
+  useEffect(() => {
+    window.document.title =
+      'Technologies and IT Solutions: Empowering Businesses in the Digital Age';
+  }, []);
   return (
     <>
       <main className='w-full h-auto'>

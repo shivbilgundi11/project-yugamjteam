@@ -2,8 +2,13 @@ import { GoDotFill } from 'react-icons/go';
 import HRSolBlogBanner from '../../assets/images/hrblog.jpg';
 import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const HRSolBlog = () => {
+  useEffect(() => {
+    window.document.title =
+      'Unlocking Business Potential: The Power of HR Solutions by YugAmjTeam';
+  }, []);
   return (
     <>
       <main className='w-full h-auto'>

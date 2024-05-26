@@ -2,8 +2,13 @@ import { GoDotFill } from 'react-icons/go';
 import EmailMarBanner from '../../assets/images/emailMarketingBanner.jpg';
 import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const EmailMarketing = () => {
+  useEffect(() => {
+    window.document.title =
+      'Understanding Email Marketing and Its Importance for Businesses';
+  }, []);
   return (
     <>
       <main className='w-full h-auto'>
