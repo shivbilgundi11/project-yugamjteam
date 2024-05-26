@@ -60,8 +60,8 @@ const TypesOfInternship: React.FC = () => {
   ];
   return (
     <>
-      <h2 className="text-4xl flex justify-center pt-16 items-center">
-        Internships we Offer!!
+      <h2 className="text-4xl flex font-bold justify-center pt-16 items-center">
+        Internships we offer!!
       </h2>
       <div className="flex flex-wrap justify-center">
         {cards.map((card, index) => (

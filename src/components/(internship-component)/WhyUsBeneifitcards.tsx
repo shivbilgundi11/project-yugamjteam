@@ -56,7 +56,7 @@ const BenefitsCards: React.FC = () => {
 
   return (
     <>
-      <h2 className="text-4xl flex justify-center pt-16 items-center">
+      <h2 className="text-4xl flex font-bold justify-center pt-16 items-center">
         Why choose us!!
       </h2>
       {/* <div className="text-4xl flex justify-center">
