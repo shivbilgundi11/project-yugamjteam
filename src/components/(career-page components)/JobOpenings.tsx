@@ -19,9 +19,6 @@
 //           </p>
 
 //           <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-6">
-//             <p className="text-lg md:text-xl lg:text-3xl font-medium text-center mb-3">
-//               Full Time
-//             </p>
 //             {/* Job-1 */}
 //             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
 //               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
@@ -32,7 +29,7 @@
 //               </div>
 //               <div className="text-center">
 //                 <p className="text-lg md:text-xl font-semibold">
-//                   Full Stack Developer
+//                   Developer
 //                 </p>
 //                 {/* <p className="font-medium text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
@@ -67,7 +64,7 @@
 //               </div>
 //               <div className="text-center">
 //                 <p className="text-lg md:text-xl font-semibold">
-//                   Software Tester
+//                   Tester
 //                 </p>
 //                 {/* <p className="font-medium text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
@@ -164,7 +161,7 @@
 //               </div>
 //               <div className="text-center">
 //                 <p className="text-lg md:text-xl font-semibold">
-//                   Business Development Executive
+//                   Freelance
 //                 </p>
 //                 {/* <p className="font-medium text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
@@ -190,22 +187,19 @@
 //             </div>
 
 //             {/* Member-1 */}
-//             <p className="text-lg md:text-xl lg:text-3xl font-medium text-center mb-3">
-//               Part Time
-//             </p>
-//             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
+//             {/* <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
 //               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
 //                 <img src={Avatar} alt="profileimg" />
 //               </div>
 //               <div className="text-center">
-//                 <p className="text-lg md:text-xl font-semibold">Tester</p>
+//                 <p className="text-lg md:text-xl font-semibold">Tester</p> */}
 //                 {/* <p className="font-medium text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
 //                 </p> */}
-//                 <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
+//                 {/* <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
 //                 </button>
-//               </div>
+//               </div> */}
 //               {/* <div className="flex items-center justify-center gap-x-3 text-xl">
 //                 <a href="#">
 //                   <FaLinkedin />
@@ -220,22 +214,22 @@
 //                   <FaFacebookF />
 //                 </a>
 //               </div> */}
-//             </div>
+//             {/* </div> */}
 
 //             {/* Member-1 */}
-//             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
+//             {/* <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
 //               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
 //                 <img src={Avatar} alt="profileimg" />
 //               </div>
 //               <div className="text-center">
-//                 <p className="text-lg md:text-xl font-semibold">FreeLancing</p>
+//                 <p className="text-lg md:text-xl font-semibold">FreeLancing</p> */}
 //                 {/* <p className="font-medium text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
 //                 </p> */}
-//                 <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
+//                 {/* <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
 //                 </button>
-//               </div>
+//               </div> */}
 //               {/* <div className="flex items-center justify-center gap-x-3 text-xl">
 //                 <a href="#">
 //                   <FaLinkedin />
@@ -250,22 +244,22 @@
 //                   <FaFacebookF />
 //                 </a>
 //               </div> */}
-//             </div>
+//             {/* </div> */}
 
 //             {/* Member-1 */}
-//             <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
+//             {/* <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
 //               <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
 //                 <img src={Avatar} alt="profileimg" />
 //               </div>
 //               <div className="text-center">
-//                 <p className="text-lg md:text-xl font-semibold">And more...</p>
+//                 <p className="text-lg md:text-xl font-semibold">And more...</p> */}
 //                 {/* <p className="font-medium text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
 //                 </p> */}
-//                 <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
+//                 {/* <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
 //                   Apply
 //                 </button>
-//               </div>
+//               </div> */}
 //               {/* <div className="flex items-center justify-center gap-x-3 text-xl">
 //                 <a href="#">
 //                   <FaLinkedin />
@@ -280,15 +274,13 @@
 //                   <FaFacebookF />
 //                 </a>
 //               </div> */}
-//             </div>
+//             {/* </div> */}
 //           </div>
 //         </div>
 //       </section>
 //     </>
 //   );
 // }
-
-import Avatar from "../../assets/images/client.jpg";
 
 export default function JobOpenings() {
   return (
@@ -311,15 +303,19 @@ export default function JobOpenings() {
           {/* Full Time Jobs Section */}
           <div className="md:flex md:justify-between">
             <div className="w-full md:w-1/2 p-2">
-              <h2 className="text-lg md:text-xl lg:text-3xl font-medium text-center  mb-3">
+              {/* <h2 className="text-lg md:text-xl lg:text-3xl font-medium text-center  mb-3">
                 Full Time
-              </h2>
+              </h2> */}
               {/* Full Time Job Cards */}
               <div className="space-y-4">
                 {/* Card 1 */}
                 <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
-                  <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                    <img src="https://cdn-icons-png.flaticon.com/256/11180/11180563.png" alt="profileimg" />
+                  <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[140px] lg:h-[140px] rounded-full overflow-hidden border-4 border-lightgray">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/128/1688/1688502.png"
+                      // "https://cdn-icons-png.flaticon.com/256/11180/11180563.png"
+                      alt="profileimg"
+                    />
                   </div>
                   <div className="text-center">
                     <p className="text-lg md:text-xl font-semibold">
@@ -330,14 +326,48 @@ export default function JobOpenings() {
                     </button>
                   </div>
                 </div>
+                {/* <div className="space-y-4"> */}
+                {/* Card 1 */}
+                {/* <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
+        <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray relative">
+            <img
+                src="https://cdn-icons-png.flaticon.com/128/1688/1688502.png"
+                alt="profileimg"
+                style={{
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    width: '100%',
+                    height: 'auto',
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    objectFit: 'contain'
+                }}
+            />
+        </div>
+        <div className="text-center">
+            <p className="text-lg md:text-xl font-semibold">
+                Full Stack Developer
+            </p>
+            <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
+                Apply
+            </button>
+        </div>
+    </div>
+</div> */}
+
                 {/* Card 2 */}
                 <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
-                  <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                    <img src="https://cdn-icons-png.flaticon.com/256/11180/11180563.png" alt="profileimg" />
+                  <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[140px] lg:h-[140px] rounded-full overflow-hidden border-4 border-lightgray">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/128/5024/5024208.png"
+                      alt="profileimg"
+                    />
                   </div>
                   <div className="text-center">
                     <p className="text-lg md:text-xl font-semibold">
-                      Software Tester
+                      Freelance
                     </p>
                     <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
                       Apply
@@ -345,37 +375,39 @@ export default function JobOpenings() {
                   </div>
                 </div>
                 {/* Card 3 */}
-                <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
+                {/* <div className="w-full h-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
                   <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
                     <img src="https://cdn-icons-png.flaticon.com/256/11180/11180563.png" alt="profileimg" />
                   </div>
                   <div className="text-center">
                     <p className="text-lg md:text-xl font-semibold">
-                    Business Development 
+                    Business Development
                     </p>
                     <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
                       Apply
                     </button>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
             {/* Part Time Jobs Section */}
             <div className="w-full md:w-1/2 p-2">
-              <h2 className="text-lg md:text-xl lg:text-3xl font-medium text-center mb-3">
+              {/* <h2 className="text-lg md:text-xl lg:text-3xl font-medium text-center mb-3">
                 Part Time
-              </h2>
+              </h2> */}
               {/* Part Time Job Cards */}
               <div className="w-full p-6 sm:p-7 md:p-8 lg:p-10 bg-white rounded-lg hover:shadow-xl flex items-center justify-center flex-col gap-y-4 md:gap-y-7">
                 {/* Card Content */}
-                <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[160px] lg:h-[160px] rounded-full overflow-hidden border-4 border-lightgray">
-                  <img src={Avatar} alt="profileimg" />
+                <div className="w-12 h-12 md:w-16 md:h-16 lg:w-[140px] lg:h-[140px] rounded-full overflow-hidden border-4 border-lightgray">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/7439/7439276.png"
+                    alt="profileimg"
+                  />
+                  {/* <img src={Avatar} alt="profileimg" /> */}
                 </div>
                 <div className="text-center">
-                  <p className="text-lg md:text-xl font-semibold">
-                    Freelance
-                  </p>
+                  <p className="text-lg md:text-xl font-semibold">Trainer</p>
                   <button className="text-sm py-3 px-6 mt-2 border border-lightgray rounded-md">
                     Apply
                   </button>
@@ -388,5 +420,3 @@ export default function JobOpenings() {
     </>
   );
 }
-
-
