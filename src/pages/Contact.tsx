@@ -2,8 +2,6 @@
 import { useEffect } from "react";
 import ContactUs from "../components/(contact-us components)/Form&Map";
 
-import ContactUs from '../components/(contact-us components)/Form&Map';
-
 // import HeroContactUs from "../components/(contact-us components)/HeroContactUs";
 
 export default function Contact() {
