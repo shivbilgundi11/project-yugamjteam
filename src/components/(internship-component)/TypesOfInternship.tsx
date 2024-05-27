@@ -52,8 +52,9 @@ const TypesOfInternship: React.FC = () => {
         'Forge strategic partnerships and drive growth with our business development internship opportunity.',
     },
     {
-      icon: '/src/assets/images/InternshipImages/Types-of-internship-images/more.png',
-      title: 'And many more!',
+      icon: "https://cdn-icons-png.flaticon.com/128/9195/9195918.png", 
+      // "/src/assets/images/InternshipImages/Types-of-internship-images/more.png",
+      title: "And many more!",
       description:
         "Unlock a plethora of internship opportunities - there's more awaiting your ambition!",
     },
