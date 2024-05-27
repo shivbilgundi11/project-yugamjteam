@@ -4,10 +4,21 @@ import {
   FaLinkedinIn,
   FaXTwitter,
 } from 'react-icons/fa6';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Button from './ui/Button';
 
 export default function Footer() {
+  const navigate = useNavigate();
+
+  const scrollToServices = () => {
+    navigate('/');
+    setTimeout(() => {
+      const servicesSection = document.getElementById('services__section');
+      if (servicesSection) {
+        servicesSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100); // Delay to ensure the page has navigated
+  };
   return (
     <footer className='w-full h-auto p-4 lg:p-0 darkBlueBg text-white rounded-t-[18px]'>
       <div className='w-full h-full container mx-auto p-6 sm:p-3 md:p-6 lg:py-16 grid grid-cols-1 gap-y-12 md:gap-y-8 lg:gap-y-10'>
@@ -20,13 +31,15 @@ export default function Footer() {
           </div>
           <div className='flex items-center justify-center gap-x-5'>
             <a
-              href='#'
+              href='https://www.linkedin.com/company/yugamjteam-technologies-pvt-ltd/mycompany/'
+              target='blank'
               className='text-lg md:text-xl text-blue hover:text-slate-600'
             >
               <FaLinkedinIn />
             </a>
             <a
-              href='#'
+              href='https://www.instagram.com/amjteam_._/'
+              target='blank'
               className='text-lg md:text-xl text-red-600 hover:text-slate-600'
             >
               <FaInstagram />
@@ -48,13 +61,13 @@ export default function Footer() {
 
         <div className='w-full h-auto flex items-center justify-center gap-3 md:gap-5 lg:gap-6 flex-wrap'>
           <Button
-            text='+91 123456789'
+            text='+91 9663193035'
             className='p-0 md:p-0 lg:p-0 px-2 md:px-2 lg:px-2 after:text-lg lg:text-[22px]'
             spanStyles='lg:text-[22px]'
             variant='secondary'
           />
           <Button
-            text='xyz@abcd.com'
+            text='abhi@amjteam.com'
             className='p-0 md:p-0 lg:p-0 px-2 md:px-2 lg:px-2 after:text-lg lg:text-[22px]'
             spanStyles='lg:text-[22px]'
             variant='secondary'
@@ -70,27 +83,27 @@ export default function Footer() {
               </Link>
             </li>
             <li className='md:px-4 lg:px-8 md:border-r border-gray text-blue hover:text-slate-600 transition-colors duration-200 ease-in hover:underline'>
-              <Link to={'/'} className='text-center'>
+              <Link to={'/about'} className='text-center'>
                 About Us
               </Link>
             </li>
             <li className='md:px-4 lg:px-8 md:border-r border-gray text-blue hover:text-slate-600 transition-colors duration-200 ease-in hover:underline'>
-              <Link to={'/'} className='text-center'>
+              <p onClick={scrollToServices} className='text-center'>
                 Services
-              </Link>
+              </p>
             </li>
             <li className='md:px-4 lg:px-8 md:border-r border-gray text-blue hover:text-slate-600 transition-colors duration-200 ease-in hover:underline'>
-              <Link to={'/'} className='text-center'>
+              <Link to={'/career'} className='text-center'>
                 Career
               </Link>
             </li>
             <li className='md:px-4 lg:px-8 md:border-r border-gray text-blue hover:text-slate-600 transition-colors duration-200 ease-in hover:underline'>
-              <Link to={'/'} className='text-center'>
+              <Link to={'/blogs'} className='text-center'>
                 Blogs
               </Link>
             </li>
             <li className='md:px-4 lg:px-8 text-blue hover:text-slate-600 transition-colors duration-200 ease-in hover:underline'>
-              <Link to={'/'} className='text-center'>
+              <Link to={'/contact'} className='text-center'>
                 Contact Us
               </Link>
             </li>

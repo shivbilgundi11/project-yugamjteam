@@ -6,8 +6,8 @@ const Greeting = () => {
     { greeting: 'नमस्ते' },
     { greeting: 'வணக்கம்' },
     { greeting: 'నమస్తే' },
-    { greeting: 'Hi' },
-    { greeting: 'Ola' },
+    { greeting: 'Hello' },
+    { greeting: 'Hola' },
     // Add more greetings as needed
   ]);
 
@@ -31,11 +31,11 @@ const Greeting = () => {
   return (
     <div className='w-max'>
       <p
-        className={`text-lg sm:text-xl md:text-2xl font-semibold ${
+        className={`text-sm sm:text-xl md:text-2xl font-semibold ${
           showAnimation ? 'fade-in-out' : ''
         }`}
       >
-        {greetings[currentGreetingIndex].greeting}
+        {greetings[currentGreetingIndex].greeting},
       </p>
     </div>
   );
