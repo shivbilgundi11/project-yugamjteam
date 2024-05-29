@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-
 import { motion, useAnimation } from 'framer-motion';
 
 interface FeatureCardProps {
@@ -26,7 +25,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, featurePo
     <motion.div
       initial={{ y: 50, opacity: 0 }}
       animate={controls}
-      className="mb-6  bg-white shadow-md hover:shadow-lg rounded-lg p-6 w-full"
+      className="mb-6  bg-white shadow-md hover:shadow-lg rounded-lg p-6 w-full "
     >
       <div className="mb-4 ">
         <h2 className="text-2xl  font-lora font-bold text-blue">{title}</h2>
@@ -51,7 +50,7 @@ const LeftImageSection: React.FC<{ imageSrc: string }> = ({ imageSrc }) => {
 
 const RightCardsSection: React.FC<{ cards: FeatureCardProps[] }> = ({ cards }) => {
   return (
-    <div className="w-full md:w-1/2 md:flex justify-between gap-6 " >
+    <div className="pb-8 w-full md:w-1/2 md:flex justify-between gap-6 " >
       <div className="md:w-1/2 flex flex-col ">
         {cards.slice(0, 2).map((card, index) => (
           <FeatureCard
@@ -103,7 +102,7 @@ const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {
 
 
 const SecondSection: React.FC = () => {
-  const leftSectionImage = "https://png.pngitem.com/pimgs/s/199-1997750_solution-png-7-png-image-transparent-png.png"; // Replace with actual image path
+  const leftSectionImage = "https://plus.unsplash.com/premium_vector-1714618914509-ae7e36e34732?bg=FFFFFF&w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fElUJTIwU29sdXRpb25zfGVufDB8fDB8fHww"; // Replace with actual image path
 
   const featureCards = [
     {
@@ -155,7 +154,13 @@ const SecondSection: React.FC = () => {
 
   return (
     <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
-      <div className="flex flex-wrap justify-center items-center">
+      <div className='flex justify-center items-center '>
+        <p className='text-xl font-medium  lg:mx-auto text-gray uppercase '>
+          Our Services
+        </p>
+      </div>
+
+      <div className="flex flex-wrap justify-center items-center mt-8">
         {/* Left Image Section */}
         <LeftImageSection imageSrc={leftSectionImage} />
 
@@ -164,7 +169,7 @@ const SecondSection: React.FC = () => {
       </div>
 
       {/* Icon, Heading, Description, Key Features Section */}
-      <div className="flex flex-col items-center justify-center py-16">
+      <div className="flex flex-col items-center justify-center pb-20">
         <div className="mb-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -181,12 +186,12 @@ const SecondSection: React.FC = () => {
 
         <h2 className="text-3xl  font-lora font-bold mb-4">We also build our own software products</h2>
         <div className='flex justify-start items-start'>
-        <p className="text-lg lg:text-center max-w-md mb-6">
-          At YugAmjTeam, we're not just focused on solving business challenges – we're dedicated to making a positive impact across various domains. That's why we develop our own proprietary software tools to address a wide range of needs, from business operations to social causes and beyond.
-        </p>
+          <p className="text-lg lg:text-center max-w-70 mb-6">
+            At YugAmjTeam, we're not just focused on solving business challenges – we're dedicated to making a positive impact across various domains. That's why we develop our own proprietary software tools to address a wide range of needs, from business operations to social causes and beyond.
+          </p>
 
         </div>
-       
+
         <div className="flex flex-wrap justify-center items-center py-16">
           <ServiceCard
             title="Versatile Solutions"
