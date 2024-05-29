@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+
 import { motion, useAnimation } from 'framer-motion';
 
 interface FeatureCardProps {
@@ -25,11 +26,11 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, featurePo
     <motion.div
       initial={{ y: 50, opacity: 0 }}
       animate={controls}
-      className="mb-6 bg-white shadow rounded-lg p-6 w-full"
+      className="mb-6  bg-white shadow-md hover:shadow-lg rounded-lg p-6 w-full"
     >
-      <div className="mb-4">
-        <h2 className="text-3xl font-bold text-lightblue">{title}</h2>
-        <p className="text-lg mt-2">{description}</p>
+      <div className="mb-4 ">
+        <h2 className="text-2xl  font-lora font-bold text-blue">{title}</h2>
+        <p className=" text-lg mt-2">{description}</p>
       </div>
       <ul className="list-disc ml-6">
         {featurePoints.map((point, index) => (
@@ -42,16 +43,16 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, featurePo
 
 const LeftImageSection: React.FC<{ imageSrc: string }> = ({ imageSrc }) => {
   return (
-    <div className="w-full md:w-1/2 flex items-center justify-center">
-      <img src={imageSrc} alt="Left Section Image" className="max-w-full h-auto" />
+    <div className="w-full md:w-1/2 flex items-center justify-center  ">
+      <img src={imageSrc} alt="Left Section Image" className="max-w-auto h-auto" />
     </div>
   );
 };
 
 const RightCardsSection: React.FC<{ cards: FeatureCardProps[] }> = ({ cards }) => {
   return (
-    <div className="w-full md:w-1/2 md:flex justify-between gap-6" >
-      <div className="md:w-1/2 flex flex-col">
+    <div className="w-full md:w-1/2 md:flex justify-between gap-6 " >
+      <div className="md:w-1/2 flex flex-col ">
         {cards.slice(0, 2).map((card, index) => (
           <FeatureCard
             key={index}
@@ -61,7 +62,7 @@ const RightCardsSection: React.FC<{ cards: FeatureCardProps[] }> = ({ cards }) =
           />
         ))}
       </div>
-      <div className="md:w-1/2 flex flex-col">
+      <div className="md:w-1/2 flex flex-col ">
         {cards.slice(2, 4).map((card, index) => (
           <FeatureCard
             key={index}
@@ -85,12 +86,12 @@ interface ServiceCard {
 const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {
   return (
     <>
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+      <div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
         <div className="mb-9 rounded-[20px] bg-lightblue p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
           <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
             {icon}
           </div>
-          <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-blue">
+          <h4 className="mb-[14px] text-2xl font-lora font-semibold text-dark dark:text-blue">
             {title}
           </h4>
           <p className="text-body-color dark:text-dark-6">{details}</p>
@@ -102,7 +103,7 @@ const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {
 
 
 const SecondSection: React.FC = () => {
-  const leftSectionImage = "leftImage.jpg"; // Replace with actual image path
+  const leftSectionImage = "https://png.pngitem.com/pimgs/s/199-1997750_solution-png-7-png-image-transparent-png.png"; // Replace with actual image path
 
   const featureCards = [
     {
@@ -153,7 +154,7 @@ const SecondSection: React.FC = () => {
   ];
 
   return (
-    <div className="bg-lightgray py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-wrap justify-center items-center">
         {/* Left Image Section */}
         <LeftImageSection imageSrc={leftSectionImage} />
@@ -178,11 +179,14 @@ const SecondSection: React.FC = () => {
 
 
 
-        <h2 className="text-3xl font-bold mb-4">We also build our own software products</h2>
-        <p className="text-lg text-center max-w-md mb-6">
+        <h2 className="text-3xl  font-lora font-bold mb-4">We also build our own software products</h2>
+        <div className='flex justify-start items-start'>
+        <p className="text-lg lg:text-center max-w-md mb-6">
           At YugAmjTeam, we're not just focused on solving business challenges – we're dedicated to making a positive impact across various domains. That's why we develop our own proprietary software tools to address a wide range of needs, from business operations to social causes and beyond.
         </p>
 
+        </div>
+       
         <div className="flex flex-wrap justify-center items-center py-16">
           <ServiceCard
             title="Versatile Solutions"
