@@ -1,17 +1,14 @@
-import { useEffect } from 'react';
-// import Button from '../ui/Button';
-// import Greeting from '../ui/Greeting';
-
+import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { CustomEase } from 'gsap/CustomEase';
 
 gsap.registerPlugin(CustomEase);
-CustomEase.create('cubic-text', '0.25, 1, 0.5, 1');
+CustomEase.create('cubic-text', '0.30, 1, 0.5, 1');
 
-export default function Hero() {
+const Hero: React.FC = () => {
   useEffect(() => {
-    const titles = document.querySelectorAll('.h_title');
-    const others = document.querySelectorAll('.opacityDelay');
+    const titles = document.querySelectorAll<HTMLDivElement>('.h_title');
+    const others = document.querySelectorAll<HTMLParagraphElement>('.opacityDelay');
 
     const t1 = gsap.timeline({ defaults: { duration: 1 } });
 
@@ -28,8 +25,9 @@ export default function Hero() {
         delay,
       );
     });
+
     titles.forEach((title, index) => {
-      const el = title.querySelectorAll('span span');
+      const el = title.querySelectorAll<HTMLSpanElement>('span span');
 
       const delay = index * 0.08;
 
@@ -46,50 +44,47 @@ export default function Hero() {
   }, []);
 
   return (
-    <>
-      <section className='w-full h-[70vh] lg:h-[85vh] mark-bg'>
-
-        <div className='w-full h-full container mx-auto p-4 flex flex-col items-start justify-center gap-y-3 md:gap-y-5'>
-          {/* <div className='text-lg sm:text-xl md:text-2xl bg-off-white px-4 py-2 rounded-full flex items-center justify-center gap-x-4 opacityDelay opacity-0'>
-            <Greeting />, Welcome to YugAmjTeam
-          </div> */}
-          <div>
-            <h1 className='h_title w-full h-auto mb-2'>
-              <span className='flex gap-x-2 md:gap-x-3 overflow-hidden'>
-                <span className='text-4xl md:text-5xl lg:text-5xl font-regular leading-none translate-y-full font-semibold'>
-                  Thrive Online
-                </span>
-                <span className='text-4xl md:text-5xl lg:text-5xl font-regular leading-none translate-y-full font-semibold'>
-                  Elevate Your Brand
-                </span>
+    <section className='relative w-full h-screen lg:h-[85vh] mark-bg'>
+      <div className='absolute inset-0 bg-cover bg-center' style={{ backgroundImage: 'url(path/to/your/image.jpg)' }}></div>
+      <div className='container relative mx-auto flex h-full w-full flex-col items-center justify-center gap-y-3 p-4 text-center md:items-start md:text-left md:gap-y-5'>
+        <div className='font-lora'>
+          <h1 className='h_title mb-2 w-full h-auto'>
+            <span className='flex flex-wrap justify-center gap-x-2 overflow-hidden md:justify-start md:gap-x-3'>
+              <span className='translate-y-full text-2xl font-semibold leading-tight sm:text-4xl md:text-5xl lg:text-6xl'>
+                Thrive Online
               </span>
-            </h1>
-            <h1 className='h_title w-full h-auto mb-2'>
-              <span className='flex gap-x-5 overflow-hidden'>
-                <span className=' text- md:text-5xl lg:text-5xl font-regular leading-none translate-y-full font-semibold'>
-                  With
-                </span>
-                <span className=' text-4xl text-blue  md:text-5xl lg:text-5xl font-regular leading-none translate-y-full font-semibold'>
-                  Digital
-                </span>
-                <span className='text-4xl md:text-5xl lg:text-5xl font-regular leading-none translate-y-full font-semibold'>
-                  Domination</span>
+              <span className='translate-y-full text-2xl font-semibold leading-tight sm:text-4xl md:text-5xl lg:text-6xl'>
+                Elevate Your Brand
               </span>
-
-            </h1>
-          </div>
-          <p className='bg-gray rounded-full flex items-center justify-center opacityDelay opacity-0 font-medium text-black text-lg opacityDelay mt-4'>
-            <span className="mr-3 ml-3">SEO | PPC | Content Strategy | Engaging Audiences</span>
-          </p>
-          <section className='flex text-balance text-xl'>
-            <span className='opacityDelay opacity-0'>
-            <p >
-              At YugAmjTeam, we offer comprehensive digital marketing services to help businesses thrive online. From SEO to social media and beyond, we leverage the latest tools and strategies to drive measurable results and achieve your marketing objectives.
-            </p>
             </span>
-          </section>
+          </h1>
+          <h1 className='h_title mb-2 w-full h-auto'>
+            <span className='flex flex-wrap justify-center gap-x-2 overflow-hidden md:justify-start md:gap-x-5'>
+              <span className='translate-y-full text-2xl font-semibold leading-tight sm:text-4xl md:text-5xl lg:text-6xl'>
+                With
+              </span>
+              <span className='translate-y-full h-20  text-red text-2xl font-semibold leading-tight  sm:text-4xl md:text-5xl lg:text-6xl'>
+                Digital
+              </span>
+              <span className='translate-y-full text-2xl font-semibold leading-tight sm:text-4xl md:text-5xl lg:text-6xl'>
+                Domination
+              </span>
+            </span>
+          </h1>
         </div>
-      </section>
-    </>
+        <p className='opacityDelay bg-gray mt-4 flex items-center justify-center rounded-full bg-gray-200 p-4 font-lora text-lg font-medium text-black opacity-0'>
+          SEO | PPC | Content Strategy | Engaging Audiences
+        </p>
+        <div className='opacityDelay opacity-0'>
+          <p className='mt-4 text-lg sm:text-xl md:text-2xl lg:text-2xl font-lora'>
+            At YugAmjTeam, we offer comprehensive digital marketing services to help businesses thrive online. From SEO to social media and beyond, we leverage the latest tools and strategies to drive measurable results and achieve your marketing objectives.
+          </p>
+        </div>
+      </div>
+    </section>
   );
-}
+};
+
+export default Hero;
+
+

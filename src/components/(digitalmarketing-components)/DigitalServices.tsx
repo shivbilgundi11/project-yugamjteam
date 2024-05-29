@@ -2,44 +2,40 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 
 interface BoxItemProps {
- image: string;
- heading: string;
- description: string;
+  image: string;
+  heading: string;
+  description: string;
 }
 
 const BoxItem: React.FC<BoxItemProps> = ({ image, heading, description }) => {
- const divRef = useRef<HTMLDivElement>(null);
- const cardInView = useInView(divRef, { once: false });
+  const divRef = useRef<HTMLDivElement>(null);
+  const cardInView = useInView(divRef, { once: false });
 
- return (
+  return (
     <motion.div
       ref={divRef}
-      className={`shadow opacity-0 group-hover:opacity-100  ease-in-out rounded-2xl text-xl md:text-2xl lg:text-4xl duration-[1s] transition-all ease-[cubic-bezier(0.25, 1, 0.5, 1)] overflow-hidden ${
-        cardInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
-      }`}
+      className={`shadow opacity-0 group-hover:opacity-100 ease-in-out rounded-2xl text-lg md:text-xl lg:text-2xl duration-1000 transition-all ease-[cubic-bezier(0.25, 1, 0.5, 1)] overflow-hidden ${cardInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
+        }`}
     >
-      {/* <div className="flex flex-col items-center justify-center "> */}
-        <div className="flex justify-start mb-2 ml-3">
-          <img src={image} alt={heading} className='mr-2 w-14 h-14'/>
-          <div className='flex justify-center items-center ml-4 '>
-          <h3 className="text-xl   text-black font-bold text-center mb-2">{heading}</h3> 
-
-          </div>
+      <div className="flex flex-col items-center justify-center p-4 shadow-2xl">
+        <div className="flex justify-center mb-2">
+          <img src={image} alt={heading} className='w-14 h-14' />
         </div>
-        <p className="text-center text-light-black text-lg    rounded-md mt-4">{description}</p> 
-      {/* </div> */}
+        <h3 className="text-xl text-center font-lora text-red font-bold mb-2">{heading}</h3>
+        <p className="text-center text-gray-700 text-lg font-lora rounded-md mt-4">{description}</p>
+      </div>
     </motion.div>
- );
+  );
 };
 
 const DigitalServices: React.FC = () => {
- const gridRef = useRef<HTMLDivElement>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
 
- const boxItems: BoxItemProps[] = [
+  const boxItems: BoxItemProps[] = [
     {
       image: 'https://cdn-icons-png.flaticon.com/128/3494/3494271.png',
       heading: 'Search Engine Optimization',
-      description: "Improve your website's visibility and organic search rankings to attract more qualified traffic",
+      description: "Improve your website's visibility and organic search rankings to attract more qualified traffic.",
     },
     {
       image: 'https://cdn-icons-png.flaticon.com/128/1997/1997928.png',
@@ -67,26 +63,27 @@ const DigitalServices: React.FC = () => {
       description: "Track, measure, and optimize your digital marketing efforts for maximum ROI and effectiveness.",
     },
     // Add more box items as needed
- ];
+  ];
 
- return (
-  <>
-    <div className='flex items-center justify-center  text-4xl mt-8'>
-      <h4>Our Digital Marketing Services
-</h4>
-    </div>
-    <div className='flex items-center justify-center text-2xl text-blue mt-4'>
-      <p>Our digital marketing services encompass a wide range of disciplines, including but not limited to</p>
-    </div>
-    <section className="flex justify-center py-12 ">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl" ref={gridRef}>
-        {boxItems.map((item, index) => (
-          <BoxItem key={index} {...item} />
-        ))}
+  return (
+    <>
+       <div className='flex justify-center items-center '>
+        <p className='text-xl font-bold  lg:mx-auto font-lora text-gray uppercase '>
+          Our Services
+        </p>
       </div>
-    </section>
-  </>
-);
+      <div className='flex items-center text-black justify-center text-center text-2xl text-gray-700 mt-4'>
+        <p>Our digital marketing services encompass a wide range of disciplines, including but not limited to</p>
+      </div>
+      <section className="flex justify-center py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl" ref={gridRef}>
+          {boxItems.map((item, index) => (
+            <BoxItem key={index} {...item} />
+          ))}
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default DigitalServices;

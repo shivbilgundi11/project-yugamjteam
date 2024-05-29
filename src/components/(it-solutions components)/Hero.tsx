@@ -65,22 +65,22 @@ const Hero: React.FC = () => {
             </span>
           </span> */}
 
-          <div className='w-full h-[70vh] lg:h-[80vh] container mx-auto py-9 md:py-12 lg:py-24  flex items-start justify-center flex-col gap-y-5 md:gap-y-7 mt-8'>
-            <div className='w-full h-auto flex flex-col justify-center gap-y-2'>
-              <p className='text-2xl sm:text-4xl md:text-2xl lg:text-5xl font-semibold md:w-[70%] font-lora'>
-                Empowering <span className='text-2xl sm:text-4xl md:text-2xl lg:text-5xl text-blue'>IT-Solutions</span>
-              </p>
-              <p className='text-2xl sm:text-4xl md:text-2xl lg:text-5xl font-lora font-semibold'>
-                For Tomorrow's Challenges
-              </p>
-            </div>
-            <div className='text-start md:text-left '>
-          <p className='text-lg sm:text-xl  '>
-            Welcome to YugAmjTeam's IT Services division, your partner for innovative software solutions tailored to your business needs.
-          </p>
-        </div>
-            
+        <div className='w-full h-[70vh] lg:h-[80vh] container mx-auto py-9 md:py-12 lg:py-24  flex items-start justify-center flex-col gap-y-5 md:gap-y-7 mt-8'>
+          <div className='w-full h-auto flex flex-col justify-center gap-y-2'>
+            <p className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold md:w-[70%] font-lora'>
+              Empowering <span className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-blue'>IT-Solutions</span>
+            </p>
+            <p className='text-2xl sm:text-4xl md:text-2xl lg:text-6xl font-lora font-semibold'>
+              For Tomorrow's Challenges
+            </p>
           </div>
+          <div className='text-start md:text-left '>
+          <p className='mt-4 text-lg sm:text-xl md:text-2xl lg:text-2xl font-lora'>
+              Welcome to YugAmjTeam's IT Services division, your partner for innovative software solutions tailored to your business needs.
+            </p>
+          </div>
+
+        </div>
 
 
       </div>
