@@ -58,7 +58,7 @@ export default function AboutHero() {
         <div ref={heroRef} className="w-full h-auto">
           <div className="w-full h-[50vh] md:h-[70vh] careerhero-bg flex items-end justify-center">
             <p
-              className={`container mx-auto p-4 text-xl font-bold md:w-[50%] md:text-4xl text-center text-white bg-blue transition-all duration-500 ease-in ${
+              className={`container mx-auto p-4 text-xl font-bold md:w-[80%] md:text-4xl text-center text-white bg-blue transition-all duration-500 ease-in ${
                 heroInView
                   ? "translate-y-0 opacity-100"
                   : "translate-y-6 opacity-0"
