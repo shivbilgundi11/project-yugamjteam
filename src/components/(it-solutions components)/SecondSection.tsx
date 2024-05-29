@@ -184,9 +184,9 @@ const SecondSection: React.FC = () => {
 
 
 
-        <h2 className="text-3xl  font-lora font-bold mb-4">We also build our own software products</h2>
+        <h2 className="text-3xl   font-lora font-bold mb-4">We also build our own software products</h2>
         <div className='flex justify-start items-start'>
-          <p className="text-lg lg:text-center max-w-70 mb-6">
+          <p className="text-lg text-gray lg:text-center max-w-70 mb-6">
             At YugAmjTeam, we're not just focused on solving business challenges – we're dedicated to making a positive impact across various domains. That's why we develop our own proprietary software tools to address a wide range of needs, from business operations to social causes and beyond.
           </p>
 
