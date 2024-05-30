@@ -6,16 +6,16 @@ import TypesOfInternship from "../../components/(internship-component)/TypesOfIn
 import BenefitsCards from "../../components/(internship-component)/WhyUsBeneifitcards";
 
 export default function Internships() {
-  useEffect(() => { 
+  useEffect(() => {
     window.document.title = "Internship";
-  })
+  });
   return (
     <div className="container mx-auto p-4">
-        <HeroInternship />
-        <BenefitsCards />
-        <TypesOfInternship />
-        <Dev_testi />
-        <Intern_testi />
-      </div>
+      <HeroInternship />
+      <BenefitsCards />
+      <TypesOfInternship />
+      <Dev_testi />
+      <Intern_testi />
+    </div>
   );
 }
