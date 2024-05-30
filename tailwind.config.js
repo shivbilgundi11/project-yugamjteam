@@ -18,6 +18,8 @@ export default {
         'lightgray': 'rgb(0,0,0, 0.1)',
         'gray': '#8f8f8f',
         'lightblue': '#9aded1',
+        'blue-2': '#31246c',
+        'red': '#FF0000'
       },
       fontFamily: {
         poppins: ['Inter', 'sans-serif'],
