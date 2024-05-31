@@ -7,7 +7,7 @@ import BenefitsCards from "../../components/(internship-component)/WhyUsBeneifit
 
 export default function Internships() {
   useEffect(() => {
-    window.document.title = "Internship";
+    window.document.title = "Services - Internship";
   });
   return (
     <div className="container mx-auto p-4">
