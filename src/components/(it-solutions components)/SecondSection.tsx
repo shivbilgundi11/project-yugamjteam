@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
 
 interface FeatureCardProps {
   title: string;
@@ -7,7 +7,11 @@ interface FeatureCardProps {
   featurePoints: string[];
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, featurePoints }) => {
+const FeatureCard: React.FC<FeatureCardProps> = ({
+  title,
+  description,
+  featurePoints,
+}) => {
   const controls = useAnimation();
 
   useEffect(() => {
@@ -43,14 +47,20 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, featurePo
 const LeftImageSection: React.FC<{ imageSrc: string }> = ({ imageSrc }) => {
   return (
     <div className="w-full md:w-1/2 flex items-center justify-center  ">
-      <img src={imageSrc} alt="Left Section Image" className="max-w-auto h-auto" />
+      <img
+        src={imageSrc}
+        alt="Left Section Image"
+        className="max-w-auto h-auto"
+      />
     </div>
   );
 };
 
-const RightCardsSection: React.FC<{ cards: FeatureCardProps[] }> = ({ cards }) => {
+const RightCardsSection: React.FC<{ cards: FeatureCardProps[] }> = ({
+  cards,
+}) => {
   return (
-    <div className="pb-8 w-full md:w-1/2 md:flex justify-between gap-6 " >
+    <div className="pb-4 w-full md:w-full lg:w-1/2 md:flex justify-between gap-6 ">
       <div className="md:w-1/2 flex flex-col ">
         {cards.slice(0, 2).map((card, index) => (
           <FeatureCard
@@ -86,11 +96,11 @@ const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {
   return (
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3 ">
-        <div className="mb-9 rounded-[20px] bg-lightblue p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
-          <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+        <div className="mb-4 rounded-[20px] bg-lightblue p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+          <div className="mb-4 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
             {icon}
           </div>
-          <h4 className="mb-[14px] text-2xl font-lora font-semibold text-dark dark:text-blue">
+          <h4 className="mb-8 text-2xl font-lora font-semibold text-dark dark:text-blue">
             {title}
           </h4>
           <p className="text-body-color dark:text-dark-6">{details}</p>
@@ -100,14 +110,15 @@ const ServiceCard: React.FC<ServiceCard> = ({ title, details, icon }) => {
   );
 };
 
-
 const SecondSection: React.FC = () => {
-  const leftSectionImage = "https://plus.unsplash.com/premium_vector-1714618914509-ae7e36e34732?bg=FFFFFF&w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fElUJTIwU29sdXRpb25zfGVufDB8fDB8fHww"; // Replace with actual image path
+  const leftSectionImage =
+    "https://plus.unsplash.com/premium_vector-1714618914509-ae7e36e34732?bg=FFFFFF&w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fElUJTIwU29sdXRpb25zfGVufDB8fDB8fHww"; // Replace with actual image path
 
   const featureCards = [
     {
       title: "Custom Software Development",
-      description: "We design and develop bespoke software solutions to address your unique business challenges, from concept to deployment.",
+      description:
+        "We design and develop bespoke software solutions to address your unique business challenges, from concept to deployment.",
       featurePoints: [
         "Comprehensive Requirement Analysis",
         "Custom Design and Development",
@@ -118,7 +129,8 @@ const SecondSection: React.FC = () => {
     },
     {
       title: "Software Integration",
-      description: "We design and develop bespoke software solutions to address your unique business challenges, from concept to deployment.",
+      description:
+        "We design and develop bespoke software solutions to address your unique business challenges, from concept to deployment.",
       featurePoints: [
         "Seamless Integration with Existing Systems",
         "Data Synchronization and Interoperability",
@@ -129,7 +141,8 @@ const SecondSection: React.FC = () => {
     },
     {
       title: "Software Maintenance and Support",
-      description: "Our dedicated support team ensures your software runs smoothly with timely updates, bug fixes, and performance optimization.",
+      description:
+        "Our dedicated support team ensures your software runs smoothly with timely updates, bug fixes, and performance optimization.",
       featurePoints: [
         "Proactive Monitoring and Maintenance",
         "Timely Bug Fixes and Updates",
@@ -140,7 +153,8 @@ const SecondSection: React.FC = () => {
     },
     {
       title: "Software Consulting",
-      description: "Gain strategic insights and actionable recommendations to achieve your business objectives with our expert consulting services.",
+      description:
+        "Gain strategic insights and actionable recommendations to achieve your business objectives with our expert consulting services.",
       featurePoints: [
         "Technology Assessments and Audits",
         "Architecture Design and Planning",
@@ -153,14 +167,14 @@ const SecondSection: React.FC = () => {
   ];
 
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
-      <div className='flex justify-center items-center '>
-        <p className='text-xl font-medium  lg:mx-auto text-gray uppercase '>
+    <div className="bg-white px-4 sm:px-6 lg:px-8">
+      <div className="flex justify-center items-center ">
+        <p className="text-xl font-medium py-5 lg:mx-auto text-gray uppercase mt-6">
           Our Services
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center mt-8">
+      <div className="flex flex-wrap justify-center items-center mt-4">
         {/* Left Image Section */}
         <LeftImageSection imageSrc={leftSectionImage} />
 
@@ -169,8 +183,8 @@ const SecondSection: React.FC = () => {
       </div>
 
       {/* Icon, Heading, Description, Key Features Section */}
-      <div className="flex flex-col items-center justify-center pb-20">
-        <div className="mb-6">
+      <div className="flex flex-col items-center justify-center">
+        <div className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-12 w-12 text-primary"
@@ -182,14 +196,17 @@ const SecondSection: React.FC = () => {
           </svg>
         </div>
 
-
-
-        <h2 className="text-3xl   font-lora font-bold mb-4">We also build our own software products</h2>
-        <div className='flex justify-start items-start'>
+        <h2 className="text-3xl font-lora font-bold mb-4">
+          We also build our own software products
+        </h2>
+        <div className="flex justify-start items-start">
           <p className="text-lg text-gray lg:text-center max-w-70 mb-6">
-            At YugAmjTeam, we're not just focused on solving business challenges – we're dedicated to making a positive impact across various domains. That's why we develop our own proprietary software tools to address a wide range of needs, from business operations to social causes and beyond.
+            At YugAmjTeam, we're not just focused on solving business challenges
+            – we're dedicated to making a positive impact across various
+            domains. That's why we develop our own proprietary software tools to
+            address a wide range of needs, from business operations to social
+            causes and beyond.
           </p>
-
         </div>
 
         <div className="flex flex-wrap justify-center items-center py-16">
@@ -236,7 +253,6 @@ const SecondSection: React.FC = () => {
             }
           />
         </div>
-
       </div>
     </div>
   );

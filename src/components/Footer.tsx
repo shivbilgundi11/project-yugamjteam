@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "./ui/Button";
+import Logo from "../assets/images/logo.png";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -25,8 +26,12 @@ export default function Footer() {
         {/* ------Logo-&-Socials------ */}
         <div className="w-full h-auto flex items-center justify-center gap-3 md:gap-5 lg:gap-7 flex-wrap">
           <div className="border-r border-gray pr-3 lg:pr-5">
-            <Link to={"/"} className="text-2xl font-fira-sans font-semibold">
-              Logo
+            <Link to={"/"} className="">
+              <img
+                src={Logo}
+                alt="logo"
+                className="w-[100px] md:w-[140px] align-middle"
+              />
             </Link>
           </div>
           <div className="flex items-center justify-center gap-x-5">
@@ -40,7 +45,7 @@ export default function Footer() {
             <a
               href="https://www.instagram.com/amjteam_._/"
               target="blank"
-              className="text-lg md:text-xl text-red-600 hover:text-slate-600"
+              className="text-lg md:text-xl text-red hover:text-slate-600"
             >
               <FaInstagram />
             </a>
