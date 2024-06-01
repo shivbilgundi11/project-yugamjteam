@@ -88,7 +88,6 @@
 //   );
 // }
 
-
 import { useEffect } from "react";
 import Button from "../ui/Button";
 import gsap from "gsap";
@@ -159,11 +158,13 @@ export default function Hero() {
               and exposure to real-world projects, helping interns build the
               skills and confidence they need to succeed in their chosen field.
             </p>
-            <Button
-              text="Learn more"
-              className="border-blue after:bg-blue text-blue opacityDelay opacity-0"
-              spanStyles="data-[text]:text-blue"
-            />
+            <a href="#applyNow">
+              <Button
+                text="Apply now"
+                className="border-blue after:bg-blue text-blue opacityDelay opacity-0"
+                spanStyles="data-[text]:text-blue"
+              />
+            </a>
           </div>
           {/* Image Section */}
           <div className="image object-center text-center mt-5 order-last md:order-none">
