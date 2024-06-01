@@ -1,256 +1,106 @@
 import Marquee from "react-fast-marquee";
-import Client from "../../assets/images/client.jpg";
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 
 export default function Testimonials() {
   return (
     <>
-      {/* // <Marquee> */}
       <h2 className="text-4xl font-bold flex justify-center pb-5">
         Our Intern's view
       </h2>
-      {/* <div className="w-max h-max mt-8"></div> */}
       <div className="w-full h-full">
         <Marquee speed={80} style={{ margin: 0 }} loop={0}>
-          <div className="px-3 w-full h-auto flex justify-center item-center gap-5">
-            {/* <div className="grid grid-cols- md:grid-cols-2 lg:grid-cols-3 gap-4"> */}
-            {/* Testimonial-1 */}
-            {/* <div className="w-max h-max mt-8"></div> */}
-            <div className="max-w-sm md:max-w-md lg:max-w-lg p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-              <div className="flex items-center gap-x-4">
-                <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-                  <img
-                    src={Client}
-                    alt="client"
-                    className="w-full object-cover object-center"
-                  />
-                </div>
-                <div className="flex flex-col items-start justify-center">
-                  <p className="font-semibold">Chris</p>
-                  <p className="text-sm">Tech Manager @cardsystemsinc</p>
-                </div>
-              </div>
-              <p className="mt-4">
-                I have seen so many courses but finding course that gives
-                lecture and playground to code is difficult to find. But
-                codedamn is totally amazing in this perspective even quality of
-                content is unmatchable and it helped me many times in
-                understanding concepts in depth
+          <div className="w-full h-full flex items-center justify-center gap-5 mr-5">
+            <div className="group w-[350px] md:w-[500px] h-auto p-4 md:p-5 rounded-lg border border-lightgray shadow-md hover:shadow-xl">
+              <h3 className="text-lg font-semibold md:text-xl mb-2">
+                Praveen Kumar
+              </h3>
+              <p className="text-gray group-hover:text-black text-sm md:text-base">
+                <ImQuotesLeft className="inline align-top mr-1 group-hover:text-black" />
+                I'm thrilled to share that I've secured an internship
+                opportunity to learn and grow. I appreciate AMJ Team for this
+                valuable chance to enhance my skills, who played a crucial role
+                for getting this opportunity. I'm eager to learn and contribute
+                to the team under their guidance.
+                <ImQuotesRight className="inline align-top mr-1 group-hover:text-black" />
               </p>
             </div>
-            {/* </Marquee> */}
-            {/* Testimonial-2 */}
-            {/* <div className="w-max h-max mt-8"></div> */}
-            <div className="max-w-sm md:max-w-md lg:max-w-lg p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-              <div className="flex items-center gap-x-4">
-                <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-                  <img
-                    src={Client}
-                    alt="client"
-                    className="w-full object-cover object-center"
-                  />
-                </div>
-                <div className="flex flex-col items-start justify-center">
-                  <p className="font-semibold">John</p>
-                  <p className="text-sm">Web Developer @example.com</p>
-                </div>
-              </div>
-              <p className="mt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                natus earum voluptate quisquam porro?
+            <div className="group w-[350px] md:w-[500px] h-auto p-4 md:p-5 rounded-lg border border-lightgray shadow-md hover:shadow-xl">
+              <h3 className="text-lg font-semibold md:text-xl mb-2">
+                Pavitra Jamadar
+              </h3>
+              <p className="text-slate-500 group-hover:text-black text-sm md:text-base">
+                <ImQuotesLeft className="inline align-top mr-1 group-hover:text-black" />
+                AmjTeam is a very Good Platform to explore new things and I got
+                a opportunity to learn different Technologies.Team Members are
+                very supportive and friendly. Thanks to Abhi M j Sir For
+                Motivating us.
+                <ImQuotesRight className="inline align-top mr-1 group-hover:text-black" />
               </p>
             </div>
-            {/* Testimonial-3 */}
-            <div className="max-w-sm md:max-w-md lg:max-w-lg p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-              <div className="flex items-center gap-x-4">
-                <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-                  <img
-                    src={Client}
-                    alt="client"
-                    className="w-full object-cover object-center"
-                  />
-                </div>
-                <div className="flex flex-col items-start justify-center">
-                  <p className="font-semibold">Anna</p>
-                  <p className="text-sm">UX Designer @designco</p>
-                </div>
-              </div>
-              <p className="mt-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-                velit quod incidunt pariatur eaque ipsum adipisci distinctio
-                labore sunt earum ad voluptate, repellat a? Aperiam. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Voluptatum quas
-                suscipit aliquid a rem exercitationem. Nihil suscipit labore
-                dignissimos, reiciendis aut ratione qui maiores rem voluptates
-                quod, pariatur nemo tempora ad. Esse voluptas eligendi quae est
-                suscipit fugit ullam earum unde rerum ad, iusto minima aliquid
-                magnam in inventore accusantium?
+            <div className="group w-[350px] md:w-[500px] h-auto p-4 md:p-5 rounded-lg border border-lightgray shadow-md hover:shadow-xl">
+              <h3 className="text-lg font-semibold md:text-xl mb-2">
+                Avanthi Sridhar
+              </h3>
+              <p className="text-slate-500 group-hover:text-black text-sm md:text-base">
+                <ImQuotesLeft className="inline align-top mr-1 group-hover:text-black" />
+                AmjTeam is the best organisation to work with. I have got lot of
+                opportunities to learn about new technologies. This is the best
+                place to work as a fresher. Abhishek sir motivates a lot and
+                Team members are also very supportive.
+                <ImQuotesRight className="inline align-top mr-1 group-hover:text-black" />
+              </p>
+            </div>
+            <div className="group w-[350px] md:w-[500px] h-auto p-4 md:p-5 rounded-lg border border-lightgray shadow-md hover:shadow-xl">
+              <h3 className="text-lg font-semibold md:text-xl mb-2">
+                Shweta Kumari
+              </h3>
+              <p className="text-slate-500 group-hover:text-black text-sm md:text-base">
+                <ImQuotesLeft className="inline align-top mr-1 group-hover:text-black" />
+                As a part of AmjTeam I learned and explored so many things from
+                scratch.I got a opportunity to work with different technologies
+                here. Team members are very supportive and honest. Thanks to
+                Abhi MJ sir who guide us every time.
+                <ImQuotesRight className="inline align-top mr-1 group-hover:text-black" />
+              </p>
+            </div>
+            <div className="group w-[350px] md:w-[500px] h-auto p-4 md:p-5 rounded-lg border border-lightgray shadow-md hover:shadow-xl">
+              <h3 className="text-lg font-semibold md:text-xl mb-2">
+                Kishore Reddy
+              </h3>
+              <p className="text-slate-500 group-hover:text-black text-sm md:text-base">
+                <ImQuotesLeft className="inline align-top mr-1 group-hover:text-black" />
+                AmjTeam is the best Organization Where we can get Anything
+                Related to IT services and Placements.... Abhi MJ Sir Motivates
+                Us a lot through his words
+                <ImQuotesRight className="inline align-top mr-1 group-hover:text-black" />
+              </p>
+            </div>
+            <div className="group w-[350px] md:w-[500px] h-auto p-4 md:p-5 rounded-lg border border-lightgray shadow-md hover:shadow-xl">
+              <h3 className="text-lg font-semibold md:text-xl mb-2">
+                Naveen Bhargav Thota
+              </h3>
+              <p className="text-slate-500 group-hover:text-black text-sm md:text-base">
+                <ImQuotesLeft className="inline align-top mr-1 group-hover:text-black" />
+                AmjTeam is a Very Good Platform to learn and Explore new
+                things.They Guide us in Each and Every Step. Thanks You Abhi M J
+                Sir.
+                <ImQuotesRight className="inline align-top mr-1 group-hover:text-black" />
+              </p>
+            </div>
+            <div className="group w-[350px] md:w-[500px] h-auto p-4 md:p-5 rounded-lg border border-lightgray shadow-md hover:shadow-xl">
+              <h3 className="text-lg font-semibold md:text-xl mb-2">
+                Vinay Chowdhary
+              </h3>
+              <p className="text-slate-500 group-hover:text-black text-sm md:text-base">
+                <ImQuotesLeft className="inline align-top mr-1 group-hover:text-black" />
+                I got intenship through amjteam. They really reffered a good
+                company for the internship and now i selected for two companies.
+                <ImQuotesRight className="inline align-top mr-1 group-hover:text-black" />
               </p>
             </div>
           </div>
-          {/* </div> */}
         </Marquee>
       </div>
     </>
   );
 }
-
-// import Marquee from "react-fast-marquee";
-// import Client from "../../assets/images/client.jpg";
-
-// export default function Testimonials() {
-//   return (
-//     <>
-//       <h2 className="text-4xl font-bold flex justify-center pb-5">
-//         Our Intern's view
-//       </h2>
-//       <Marquee speed={10} style={{ margin: 0 }}>
-//         {/* Duplicate the cards to ensure a continuous loop */}
-//         <div className="px-3 w-1/6">
-//           <div className="grid grid-cols- md:grid-cols-2 lg:grid-cols-3 gap-4">
-//             {/* Testimonial-1 */}
-//             <div className="p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-//               <div className="flex items-center gap-x-4">
-//                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-//                   <img
-//                     src={Client}
-//                     alt="client"
-//                     className="w-full object-cover object-center"
-//                   />
-//                 </div>
-//                 <div className="flex flex-col items-start justify-center">
-//                   <p className="font-semibold">Chris</p>
-//                   <p className="text-sm">Tech Manager @cardsystemsinc</p>
-//                 </div>
-//               </div>
-//               <p className="mt-4">
-//                 I have seen so many courses but finding course that gives
-//                 lecture and playground to code is difficult to find. But
-//                 codedamn is totally amazing in this perspective even quality of
-//                 content is unmatchable and it helped me many times in
-//                 understanding concepts in depth
-//               </p>
-//             </div>
-//             {/* Testimonial-2 */}
-//             <div className="p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-//               <div className="flex items-center gap-x-4">
-//                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-//                   <img
-//                     src={Client}
-//                     alt="client"
-//                     className="w-full object-cover object-center"
-//                   />
-//                 </div>
-//                 <div className="flex flex-col items-start justify-center">
-//                   <p className="font-semibold">John</p>
-//                   <p className="text-sm">Web Developer @example.com</p>
-//                 </div>
-//               </div>
-//               <p className="mt-4">
-//                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-//                 natus earum voluptate quisquam porro?
-//               </p>
-//             </div>
-//             {/* Testimonial-3 */}
-//             <div className="p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-//               <div className="flex items-center gap-x-4">
-//                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-//                   <img
-//                     src={Client}
-//                     alt="client"
-//                     className="w-full object-cover object-center"
-//                   />
-//                 </div>
-//                 <div className="flex flex-col items-start justify-center">
-//                   <p className="font-semibold">Anna</p>
-//                   <p className="text-sm">UX Designer @designco</p>
-//                 </div>
-//               </div>
-//               <p className="mt-4">
-//                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-//                 velit quod incidunt pariatur eaque ipsum adipisci distinctio
-//                 labore sunt earum ad voluptate, repellat a? Aperiam. Lorem ipsum
-//                 dolor sit amet consectetur adipisicing elit. Voluptatum quas
-//                 suscipit aliquid a rem exercitationem. Nihil suscipit labore
-//                 dignissimos, reiciendis aut ratione qui maiores rem voluptates
-//                 quod, pariatur nemo tempora ad. Esse voluptas eligendi quae est
-//                 suscipit fugit ullam earum unde rerum ad, iusto minima aliquid
-//                 magnam in inventore accusantium?
-//               </p>
-//             </div>
-//             {/* Repeat the cards to ensure a continuous loop */}
-//             <div className="p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-//               {/* Testimonial-1 */}
-//               <div className="flex items-center gap-x-4">
-//                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-//                   <img
-//                     src={Client}
-//                     alt="client"
-//                     className="w-full object-cover object-center"
-//                   />
-//                 </div>
-//                 <div className="flex flex-col items-start justify-center">
-//                   <p className="font-semibold">Chris</p>
-//                   <p className="text-sm">Tech Manager @cardsystemsinc</p>
-//                 </div>
-//               </div>
-//               <p className="mt-4">
-//                 I have seen so many courses but finding course that gives
-//                 lecture and playground to code is difficult to find. But
-//                 codedamn is totally amazing in this perspective even quality of
-//                 content is unmatchable and it helped me many times in
-//                 understanding concepts in depth
-//               </p>
-//             </div>
-//             {/* Testimonial-2 */}
-//             <div className="p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-//               <div className="flex items-center gap-x-4">
-//                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-//                   <img
-//                     src={Client}
-//                     alt="client"
-//                     className="w-full object-cover object-center"
-//                   />
-//                 </div>
-//                 <div className="flex flex-col items-start justify-center">
-//                   <p className="font-semibold">John</p>
-//                   <p className="text-sm">Web Developer @example.com</p>
-//                 </div>
-//               </div>
-//               <p className="mt-4">
-//                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-//                 natus earum voluptate quisquam porro?
-//               </p>
-//             </div>
-//             {/* Testimonial-3 */}
-//             <div className="p-3 md:p-8 mt-2 align-middle bg-white border border-lightgray rounded-xl shadow-xl">
-//               <div className="flex items-center gap-x-4">
-//                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-//                   <img
-//                     src={Client}
-//                     alt="client"
-//                     className="w-full object-cover object-center"
-//                   />
-//                 </div>
-//                 <div className="flex flex-col items-start justify-center">
-//                   <p className="font-semibold">Anna</p>
-//                   <p className="text-sm">UX Designer @designco</p>
-//                 </div>
-//               </div>
-//               <p className="mt-4">
-//                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-//                 velit quod incidunt pariatur eaque ipsum adipisci distinctio
-//                 labore sunt earum ad voluptate, repellat a? Aperiam. Lorem ipsum
-//                 dolor sit amet consectetur adipisicing elit. Voluptatum quas
-//                 suscipit aliquid a rem exercitationem. Nihil suscipit labore
-//                 dignissimos, reiciendis aut ratione qui maiores rem voluptates
-//                 quod, pariatur nemo tempora ad. Esse voluptas eligendi quae est
-//                 suscipit fugit ullam earum unde rerum ad, iusto minima aliquid
-//                 magnam in inventore accusantium?
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       </Marquee>
-//     </>
-//   );
-// }

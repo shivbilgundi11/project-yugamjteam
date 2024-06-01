@@ -31,9 +31,10 @@ export default function Dev_testi() {
                   Full Stack Developer
                 </p>
                 <p className="text-sm text-gray">
-                  A transformative journey, offering invaluable insights into
-                  teaching. This internship prepares you for a rewarding career
-                  in education.
+                  With extensive experience in both front-end and back-end
+                  technologies, excels in creating seamless user experiences and
+                  robust server-side applications. Their innovative approach and
+                  attention to detail ensure high-quality deliverables.
                 </p>
               </div>
             </div>
@@ -53,9 +54,12 @@ export default function Dev_testi() {
                   Full Stack Developer
                 </p>
                 <p className="text-sm text-gray">
-                  A transformative journey, offering invaluable insights into
-                  teaching. This internship prepares you for a rewarding career
-                  in education.
+                  A seasoned fullstack developer with 5+ year experience, adept
+                  at bridging the gap between design and functionality. Their
+                  expertise spans multiple frameworks and languages, making them
+                  a versatile asset to any development team. Passionate about
+                  coding and problem-solving, they consistently deliver
+                  efficient and scalable solutions.
                 </p>
               </div>
             </div>
@@ -75,9 +79,11 @@ export default function Dev_testi() {
                   Backend Developer
                 </p>
                 <p className="text-sm text-gray">
-                  A transformative journey, offering invaluable insights into
-                  teaching. This internship prepares you for a rewarding career
-                  in education.
+                  An expert backend developer with a deep understanding of
+                  server-side technologies and database management. Known for
+                  their problem-solving skills and efficiency, they ensure that
+                  applications run smoothly and securely, handling complex
+                  backend challenges with ease.
                 </p>
               </div>
             </div>
@@ -97,9 +103,11 @@ export default function Dev_testi() {
                   Full Stack Developer
                 </p>
                 <p className="text-sm text-gray">
-                  A transformative journey, offering invaluable insights into
-                  teaching. This internship prepares you for a rewarding career
-                  in education.
+                  An accomplished fullstack developer known for their
+                  proficiency in modern web technologies and ability to handle
+                  complex projects. Their collaborative spirit and technical
+                  acumen drive successful project outcomes, fostering a
+                  productive and creative work environment.
                 </p>
               </div>
             </div>
@@ -119,9 +127,11 @@ export default function Dev_testi() {
                   Soft Skills Trainer
                 </p>
                 <p className="text-sm text-gray">
-                  A transformative journey, offering invaluable insights into
-                  teaching. This internship prepares you for a rewarding career
-                  in education.
+                  A dedicated soft skills trainer with a knack for enhancing
+                  team communication and productivity. Specializing in
+                  leadership development, conflict resolution, and effective
+                  communication, they empower professionals to excel in both
+                  their personal and professional lives.
                 </p>
               </div>
             </div>
