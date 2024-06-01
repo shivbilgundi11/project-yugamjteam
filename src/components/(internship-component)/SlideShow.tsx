@@ -1,6 +1,3 @@
-// import "./index.css";
-// import  "/index.css";
- 
 export default function SLideShow() { 
     return( 
       <header className="bg-white dark:bg-gray-800">

@@ -32,30 +32,6 @@ export default function Dev_testi() {
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button> */}
-                {/* </div> */}
               </div>
             </div>
           </div>
@@ -78,30 +54,6 @@ export default function Dev_testi() {
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
@@ -124,30 +76,6 @@ export default function Dev_testi() {
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
@@ -170,30 +98,6 @@ export default function Dev_testi() {
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
@@ -216,30 +120,6 @@ export default function Dev_testi() {
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
