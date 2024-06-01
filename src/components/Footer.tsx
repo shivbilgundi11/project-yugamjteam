@@ -30,7 +30,7 @@ export default function Footer() {
               <img
                 src={Logo}
                 alt="logo"
-                className="w-[100px] md:w-[140px] align-middle"
+                className="w-[120px] md:w-[160px] align-middle"
               />
             </Link>
           </div>
@@ -66,13 +66,13 @@ export default function Footer() {
 
         <div className="w-full h-auto flex items-center justify-center gap-3 md:gap-5 lg:gap-6 flex-wrap">
           <Button
-            text="+91 9663193035"
+            text="+91 9980439311"
             className="p-0 md:p-0 lg:p-0 px-2 md:px-2 lg:px-2 after:text-lg lg:text-[22px]"
             spanStyles="lg:text-[22px]"
             variant="secondary"
           />
           <Button
-            text="abhi@amjteam.com"
+            text="hr@amjteam.com"
             className="p-0 md:p-0 lg:p-0 px-2 md:px-2 lg:px-2 after:text-lg lg:text-[22px]"
             spanStyles="lg:text-[22px]"
             variant="secondary"

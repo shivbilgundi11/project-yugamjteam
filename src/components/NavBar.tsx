@@ -70,7 +70,7 @@ export default function NavBar() {
           to={"/"}
           className="h-full text-2xl text-blue italic font-fira-sans font-semibold inline-flex items-center gap-x-1 mr-auto"
         >
-          <img src={Logo} alt="logo" className="w-[100px] md:w-[140px]" />
+          <img src={Logo} alt="logo" className="w-[120px] md:w-[180px]" />
         </Link>
 
         {/* -----Desktop-Menu----- */}

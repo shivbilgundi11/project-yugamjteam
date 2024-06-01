@@ -17,7 +17,6 @@ import Img13 from "../../assets/images/placementSuccess3.jpeg";
 import Img14 from "../../assets/images/placementSuccess4.jpeg";
 import Img15 from "../../assets/images/placementSuccess5.jpeg";
 import Img16 from "../../assets/images/placementSuccess6.jpeg";
-import Img17 from "../../assets/images/placementSuccess7.jpeg";
 import Img18 from "../../assets/images/placementSuccess8.jpeg";
 import Img19 from "../../assets/images/placementSuccess9.jpeg";
 import Img20 from "../../assets/images/placementSuccess10.jpeg";
@@ -259,11 +258,6 @@ const InternshipsBlog = () => {
                     />
                     <img
                       src={Img16}
-                      alt="placementImg"
-                      className="border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in"
-                    />
-                    <img
-                      src={Img17}
                       alt="placementImg"
                       className="border border-lightgray rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200 ease-in"
                     />
