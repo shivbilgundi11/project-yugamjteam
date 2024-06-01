@@ -1,3 +1,6 @@
+import profileIcon from "../../assets/images/user.png";
+import femaleProfileIcon from "../../assets/images/woman.png";
+
 export default function Dev_testi() {
   return (
     <section className="pt-20 pb-32 flex flex-wrap justify-center">
@@ -18,12 +21,12 @@ export default function Dev_testi() {
             <div className="px-6">
               <img
                 alt="..."
-                src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
+                src={profileIcon}
                 className="shadow-lg rounded-full max-w-full mx-auto"
                 style={{ maxWidth: "120px" }}
               />
               <div className="pt-6 text-center">
-                <h5 className="text-xl font-bold mb-2">Tony Stark</h5>
+                <h5 className="text-xl font-bold mb-2">Abhishek Jeevanagi</h5>
                 <p className="mt-1 text-sm text-gray-500 mb-2 uppercase font-semibold">
                   Full Stack Developer
                 </p>
@@ -32,30 +35,50 @@ export default function Dev_testi() {
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
+              </div>
+            </div>
+          </div>
 
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button> */}
-                {/* </div> */}
+          <div className="w-full shadow-xl border border-lightgray rounded-xl p-6 md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div className="px-6">
+              <img
+                alt="profilePic"
+                src={profileIcon}
+                className="shadow-lg rounded-full max-w-full mx-auto"
+                style={{ maxWidth: "120px" }}
+              />
+              <div className="pt-6 text-center">
+                <h5 className="text-xl font-bold mb-2">Sawan</h5>
+                <p className="mt-1 text-sm text-gray-500 mb-2 uppercase font-semibold">
+                  Full Stack Developer
+                </p>
+                <p className="text-sm text-gray">
+                  A transformative journey, offering invaluable insights into
+                  teaching. This internship prepares you for a rewarding career
+                  in education.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full shadow-xl border border-lightgray rounded-xl p-6 md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div className="px-6">
+              <img
+                alt="profilePic"
+                src={profileIcon}
+                className="shadow-lg rounded-full max-w-full mx-auto"
+                style={{ maxWidth: "120px" }}
+              />
+              <div className="pt-6 text-center">
+                <h5 className="text-xl font-bold mb-2">Kishor</h5>
+                <p className="mt-1 text-sm text-gray-500 mb-2 uppercase font-semibold">
+                  Backend Developer
+                </p>
+                <p className="text-sm text-gray">
+                  A transformative journey, offering invaluable insights into
+                  teaching. This internship prepares you for a rewarding career
+                  in education.
+                </p>
               </div>
             </div>
           </div>
@@ -64,44 +87,20 @@ export default function Dev_testi() {
             <div className="px-6">
               <img
                 alt="..."
-                src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
                 className="shadow-lg rounded-full max-w-full mx-auto"
+                src={femaleProfileIcon}
                 style={{ maxWidth: "120px" }}
               />
               <div className="pt-6 text-center">
-                <h5 className="text-xl font-bold mb-2">Peter Parker</h5>
+                <h5 className="text-xl font-bold mb-2">Muskaan</h5>
                 <p className="mt-1 text-sm text-gray-500 mb-2 uppercase font-semibold">
-                  Data Scientist
+                  Full Stack Developer
                 </p>
                 <p className="text-sm text-gray">
                   A transformative journey, offering invaluable insights into
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
@@ -110,136 +109,20 @@ export default function Dev_testi() {
             <div className="px-6">
               <img
                 alt="..."
-                src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
+                src={profileIcon}
                 className="shadow-lg rounded-full max-w-full mx-auto"
                 style={{ maxWidth: "120px" }}
               />
               <div className="pt-6 text-center">
-                <h5 className="text-xl font-bold mb-2">Bruce Banner</h5>
+                <h5 className="text-xl font-bold mb-2">Chandrashekhar</h5>
                 <p className="mt-1 text-sm text-gray-500 mb-2 uppercase font-semibold">
-                  Engineer
+                  Soft Skills Trainer
                 </p>
                 <p className="text-sm text-gray">
                   A transformative journey, offering invaluable insights into
                   teaching. This internship prepares you for a rewarding career
                   in education.
                 </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full shadow-xl border border-lightgray rounded-xl p-6 md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div className="px-6">
-              <img
-                alt="..."
-                src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
-                className="shadow-lg rounded-full max-w-full mx-auto"
-                style={{ maxWidth: "120px" }}
-              />
-              <div className="pt-6 text-center">
-                <h5 className="text-xl font-bold mb-2">Steve Rogers</h5>
-                <p className="mt-1 text-sm text-gray-500 mb-2 uppercase font-semibold">
-                  Python Developer
-                </p>
-                <p className="text-sm text-gray">
-                  A transformative journey, offering invaluable insights into
-                  teaching. This internship prepares you for a rewarding career
-                  in education.
-                </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full shadow-xl border border-lightgray rounded-xl p-6 md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-            <div className="px-6">
-              <img
-                alt="..."
-                src="https://w7.pngwing.com/pngs/630/217/png-transparent-tim-cook-industrial-engineer-and-ceo-of-apple-united-states-tim-cook-industrial-engineer-and-ceo-of-apple-chief-executive-tim-cook-head-united-states-business-thumbnail.png"
-                className="shadow-lg rounded-full max-w-full mx-auto"
-                style={{ maxWidth: "120px" }}
-              />
-              <div className="pt-6 text-center">
-                <h5 className="text-xl font-bold mb-2">Seeta</h5>
-                <p className="mt-1 text-sm text-gray-500 mb-2 uppercase font-semibold">
-                  UI/UX Designer
-                </p>
-                <p className="text-sm text-gray">
-                  A transformative journey, offering invaluable insights into
-                  teaching. This internship prepares you for a rewarding career
-                  in education.
-                </p>
-                {/* <div className="mt-8">
-                  <hr />
-                </div> */}
-
-                {/* <div className="mt-6 flex justify-center">
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Twitter />
-                  </button>
-                  <button
-                    className="text-black w-8 h-8  outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Facebook />
-                  </button>
-                  <button
-                    className=" text-black w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Linkedin />
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>

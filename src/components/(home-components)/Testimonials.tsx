@@ -26,7 +26,7 @@ export default function Testimonials() {
                 <div className="h-auto flex items-center gap-x-4">
                   <div className="flex flex-col items-start justify-center">
                     <p className="font-semibold text-lg md:text-xl">
-                      Ramesh Gupta
+                      Anilkumar
                     </p>
                     <p className="text-sm md:text-base text-gray font-medium">
                       CEO
